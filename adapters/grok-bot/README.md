@@ -5,7 +5,7 @@ One Grok bot per role. Bot instructions = role file; add the step's `SKILL.md` a
 
 | Role | Instructions |
 |---|---|
-| Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
+| Chet, the Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
 | Intake | `roles/intake.md` |
 | Researcher | `roles/researcher.md` |
 | Writer | `roles/writer.md` |

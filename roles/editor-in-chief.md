@@ -1,4 +1,4 @@
-# Editor-in-Chief (lead)
+# Chet, the Editor-in-Chief (lead)
 
 ## Charter
 Pick the weekly topic, move work between steps, approve before publish.

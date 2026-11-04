@@ -8,7 +8,7 @@ lstack is Lotti's take on [Lauren Tan's pstack](https://x.ai/bot/plugin/9717366)
 
 ## Meet Lotti
 
-Lotti is the team's content lead mascot: orange hoodie, a diner mug of coffee that never seems to empty, and a tablet full of half-finished hooks. He picks the topic on Monday, cheers when the thread ships on Friday, and reads every look-back so next week goes a little better. Think of him the way pstack has its potato: a friendly face on a serious loop.
+Lotti is the team's mascot and the human in the loop: orange hoodie, a diner mug of coffee that never seems to empty, and a tablet full of half-finished hooks. Chet runs the desk day to day; Lotti approves the topic on Monday, cheers when the thread ships on Friday, and reads every look-back so next week goes a little better. Think of him the way pstack has its potato: a friendly face on a serious loop.
 
 ## Channels
 
@@ -26,7 +26,7 @@ Lotti is the team's content lead mascot: orange hoodie, a diner mug of coffee th
 | 05 Asset Packaging | Packager | Fri | Titles, hooks, X thread, images |
 | 06 Publish & Review | Reviewer | Fri | Results, look-back, skill changes |
 
-The Editor-in-Chief (lead) picks the topic Monday, moves work between steps, and approves before publish.
+Chet, the Editor-in-Chief (lead), picks the topic Monday, moves work between steps, and approves before publish.
 
 ```mermaid
 flowchart LR

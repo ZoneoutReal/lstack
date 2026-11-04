@@ -5,7 +5,7 @@ Create one Claude Project (or Claude Code subagent in `.claude/agents/<role>.md`
 
 | Role | Prompt source |
 |---|---|
-| Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
+| Chet, the Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
 | Intake | `roles/intake.md` |
 | Researcher | `roles/researcher.md` |
 | Writer | `roles/writer.md` |

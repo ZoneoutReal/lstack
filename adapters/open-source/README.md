@@ -5,7 +5,7 @@ Works with any tool that can read a prompt file and run on a schedule (e.g. Aide
 ## Roles → agents
 | Role | Prompt file |
 |---|---|
-| Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
+| Chet, the Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
 | Intake | `roles/intake.md` |
 | Researcher | `roles/researcher.md` |
 | Writer | `roles/writer.md` |
