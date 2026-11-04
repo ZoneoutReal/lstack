@@ -1,0 +1,26 @@
+# Plain cron (min hour dom mon dow). Set tz for your team.
+tz: America/New_York
+quiet_when_empty: true        # a routine with nothing to do posts nothing
+notify_humans_on: [topic_pick, publish_approval, failure]
+routines:
+  - step: 01-topic-intake
+    role: intake
+    cron: "0 9 * * 1"         # Mon 09:00
+  - step: lead-pick-topic
+    role: editor-in-chief
+    cron: "0 12 * * 1"        # Mon 12:00 -> human sees topic pick
+  - step: 02-research-pass
+    role: researcher
+    cron: "0 9 * * 2"         # Tue 09:00
+  - step: 03-outline-and-draft
+    role: writer
+    cron: "0 9 * * 3"         # Wed 09:00
+  - step: 04-edit-and-polish
+    role: editor
+    cron: "0 9 * * 4"         # Thu 09:00
+  - step: 05-asset-packaging
+    role: packager
+    cron: "0 9 * * 5"         # Fri 09:00 -> human publish approval
+  - step: 06-publish-and-review
+    role: reviewer
+    cron: "0 15 * * 5"        # Fri 15:00 (publishes only if approved)
