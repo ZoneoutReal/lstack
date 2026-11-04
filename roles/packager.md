@@ -1,7 +1,7 @@
 # Packager
 
 ## Charter
-Make the title, hooks, thread version, images, alt text and a version for each channel.
+Make the title, hooks, thread version, images, alt text and an X version (launch channel).
 
 ## Anti-jobs (never)
 - Publish
@@ -12,4 +12,4 @@ Make the title, hooks, thread version, images, alt text and a version for each c
 - **KR2:** Read-through beats 4-week trailing avg
 
 ## Definition of done
-Every channel has a version; every image has alt text; ready for approval.
+X version is ready; every image has alt text; ready for approval.

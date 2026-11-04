@@ -1,8 +1,19 @@
+<p align="center"><img src="assets/lotti-avatar.jpg" alt="Lotti, the lstack mascot" width="240"></p>
+
 # lstack
 
 > A self-sustaining AI content team you can fork. One topic a week, six steps, seven bots, one human approval.
 
-lstack is Lotti's take on [Lauren Tan's pstack](https://github.com/poteto) content operating system. It is a plain Markdown + YAML skeleton that analysts, engineers and architects can fork and run with Claude, Grok bots, or any open-source agent tool.
+lstack is Lotti's take on [Lauren Tan's pstack](https://x.ai/bot/plugin/9717366) applied to a content operating system. It is a plain Markdown + YAML skeleton that analysts, engineers and architects can fork and run with Claude, Grok bots, or any open-source agent tool.
+
+## Meet Lotti
+
+Lotti is the team's content lead mascot: orange hoodie, a diner mug of coffee that never seems to empty, and a tablet full of half-finished hooks. She picks the topic on Monday, cheers when the thread ships on Friday, and reads every look-back so next week goes a little better. Think of her the way pstack has its potato: a friendly face on a serious loop.
+
+## Channels
+
+- **Launch:** X (threads and posts). Everything in this repo is tuned for X first.
+- **Later:** TikTok, LinkedIn, YouTube Shorts. Add them once X content is rolling; a stub lives in `templates/package.md`.
 
 ## The loop
 
@@ -12,7 +23,7 @@ lstack is Lotti's take on [Lauren Tan's pstack](https://github.com/poteto) conte
 | 02 Research Pass | Researcher | Tue | Sourced brief |
 | 03 Outline & Draft | Writer | Wed | Outline + draft |
 | 04 Edit & Polish | Editor | Thu | Scored final draft |
-| 05 Asset Packaging | Packager | Fri | Titles, hooks, thread, images, channel versions |
+| 05 Asset Packaging | Packager | Fri | Titles, hooks, X thread, images |
 | 06 Publish & Review | Reviewer | Fri | Results, look-back, skill changes |
 
 The Editor-in-Chief (lead) picks the topic Monday, moves work between steps, and approves before publish.
@@ -52,7 +63,7 @@ Each routine runs once on its day and stays silent when it has nothing. Humans o
 ## How to fork and make it yours
 
 - Edit `PRINCIPLES.md` first. Everything else scores against it.
-- Change channels in `templates/package.md`.
+- Change channels in `templates/package.md` (X now; TikTok, LinkedIn, YouTube Shorts later).
 - Change times in `routines/schedule.yaml` (plain cron, your timezone).
 - Keep the rules in `AGREEMENTS.md`. They are what keep the loop quiet and honest.
 - Rename roles if you like; keep one job per role.
@@ -73,7 +84,7 @@ assets/        mascot
 
 ## Credit
 
-Inspired by Lauren Tan's **pstack** and her content operating system. The loop shape, one-job-per-bot idea and the habit of encoding lessons into skills come from her work. Mistakes here are mine. — Lotti
+Inspired by Lauren Tan's **pstack** ([Grok Bot marketplace listing](https://x.ai/bot/plugin/9717366)) and her content operating system. The loop shape, one-job-per-bot idea and the habit of encoding lessons into skills come from her work. Mistakes here are ours. See `CREDITS.md`.
 
 ## License
 

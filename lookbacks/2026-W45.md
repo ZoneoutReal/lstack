@@ -9,7 +9,7 @@
 
 ## What worked
 - Concrete numbered checks drove read-through.
-- Hook 1 (new-hire analogy) beat hooks 2 and 3 on X and LinkedIn.
+- Hook 1 (new-hire analogy) beat hooks 2 and 3 on X.
 
 ## What didn't
 - Editor had to add the cost counterpoint; the Writer skipped a brief counterpoint.

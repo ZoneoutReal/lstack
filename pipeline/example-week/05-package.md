@@ -15,7 +15,7 @@ How to evaluate an AI agent before you trust it
 4/ Least access that works. Read-only first, then one tool at a time.
 5/ Log every action. Review a sample weekly.
 6/ Anything irreversible needs a human to approve. Every time.
-7/ Pass all five, then widen access slowly. Full post: <link>
+7/ Pass all five, then widen access slowly. Bookmark this.
 
 ## Images
 | File | Alt text |
@@ -23,10 +23,8 @@ How to evaluate an AI agent before you trust it
 | hero-5-checks.png | Checklist with five items: real tasks, trick it, least access, log actions, human approval. |
 
 ## Channel versions
-- **Blog:** full `04-final.md`
-- **LinkedIn:** hook 1 + 5 checks as bullets + link
-- **X:** thread above
-- **Newsletter:** hook 2 + intro + link
+- **X:** thread above (launch channel; the only channel this week)
+- **Later:** TikTok, LinkedIn, YouTube Shorts (not active yet)
 
 ## Approval
 - [x] Lead approved (Fri 10:05)

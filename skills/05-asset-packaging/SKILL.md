@@ -8,7 +8,7 @@ day: Fri AM
 **Owner:** Packager · **Runs:** Fri AM
 
 ## Job
-Title, hooks, thread version, images, alt text, a version per channel.
+Title, hooks, thread version, images, alt text, an X version (launch channel).
 
 ## Inputs
 - templates/package.md
@@ -25,7 +25,7 @@ Title, hooks, thread version, images, alt text, a version per channel.
 4. Write the file. That is the handoff.
 
 ## Definition of done
-Every channel has a version; every image has alt text; lead approval requested.
+X version is ready; every image has alt text; lead approval requested.
 
 ## Checks (added after repeat mistakes)
 - _None yet. The Reviewer adds checks here when a mistake happens twice._
