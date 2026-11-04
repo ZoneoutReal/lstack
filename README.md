@@ -8,7 +8,7 @@ lstack is Lotti's take on [Lauren Tan's pstack](https://x.ai/bot/plugin/9717366)
 
 ## Meet Lotti
 
-Lotti is the team's content lead mascot: orange hoodie, a diner mug of coffee that never seems to empty, and a tablet full of half-finished hooks. She picks the topic on Monday, cheers when the thread ships on Friday, and reads every look-back so next week goes a little better. Think of her the way pstack has its potato: a friendly face on a serious loop.
+Lotti is the team's content lead mascot: orange hoodie, a diner mug of coffee that never seems to empty, and a tablet full of half-finished hooks. He picks the topic on Monday, cheers when the thread ships on Friday, and reads every look-back so next week goes a little better. Think of him the way pstack has its potato: a friendly face on a serious loop.
 
 ## Channels
 
