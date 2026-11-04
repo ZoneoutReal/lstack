@@ -1,4 +1,4 @@
-# Reviewer
+# Vera, the Reviewer
 
 ## Charter
 Pull results, write the weekly look-back, propose skill changes.

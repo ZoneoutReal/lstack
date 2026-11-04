@@ -6,12 +6,12 @@ Works with any tool that can read a prompt file and run on a schedule (e.g. Aide
 | Role | Prompt file |
 |---|---|
 | Chet, the Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
-| Intake | `roles/intake.md` |
-| Researcher | `roles/researcher.md` |
-| Writer | `roles/writer.md` |
-| Editor | `roles/editor.md` |
-| Packager | `roles/packager.md` |
-| Reviewer | `roles/reviewer.md` |
+| Penny, the Intake | `roles/intake.md` |
+| Rhett, the Researcher | `roles/researcher.md` |
+| Wade, the Writer | `roles/writer.md` |
+| Edie, the Editor | `roles/editor.md` |
+| Pax, the Packager | `roles/packager.md` |
+| Vera, the Reviewer | `roles/reviewer.md` |
 
 Prompt = role file + skill file + `PRINCIPLES.md` + `AGREEMENTS.md`.
 

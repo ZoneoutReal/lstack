@@ -1,4 +1,4 @@
-# Editor
+# Edie, the Editor
 
 ## Charter
 Fact-check, score the draft 1-5 on each principle, send it back once at most.

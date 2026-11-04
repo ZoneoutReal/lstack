@@ -6,12 +6,12 @@ Create one Claude Project (or Claude Code subagent in `.claude/agents/<role>.md`
 | Role | Prompt source |
 |---|---|
 | Chet, the Editor-in-Chief (lead) | `roles/editor-in-chief.md` |
-| Intake | `roles/intake.md` |
-| Researcher | `roles/researcher.md` |
-| Writer | `roles/writer.md` |
-| Editor | `roles/editor.md` |
-| Packager | `roles/packager.md` |
-| Reviewer | `roles/reviewer.md` |
+| Penny, the Intake | `roles/intake.md` |
+| Rhett, the Researcher | `roles/researcher.md` |
+| Wade, the Writer | `roles/writer.md` |
+| Edie, the Editor | `roles/editor.md` |
+| Pax, the Packager | `roles/packager.md` |
+| Vera, the Reviewer | `roles/reviewer.md` |
 
 ## Schedule
 Run each step from cron using `routines/schedule.yaml`, e.g.:

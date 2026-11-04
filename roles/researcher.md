@@ -1,4 +1,4 @@
-# Researcher
+# Rhett, the Researcher
 
 ## Charter
 Produce a sourced brief: every claim linked, plus counterpoints.

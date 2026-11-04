@@ -1,4 +1,4 @@
-# Intake
+# Penny, the Intake
 
 ## Charter
 Produce 3 ranked pitches, each with a reader, a why-now and a promise.

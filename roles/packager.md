@@ -1,4 +1,4 @@
-# Packager
+# Pax, the Packager
 
 ## Charter
 Make the title, hooks, thread version, images, alt text and an X version (launch channel).

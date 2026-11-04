@@ -1,4 +1,4 @@
-# Writer
+# Wade, the Writer
 
 ## Charter
 Write an outline, then a draft, using only what the brief supports.
