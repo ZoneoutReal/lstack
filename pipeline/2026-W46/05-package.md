@@ -13,6 +13,8 @@
 ## Format note
 This week's X version is one long-form X Article plus a short teaser post, not a 21-post thread. The skill template still has a "Thread version" section; this replaces it on purpose. The aim is that an engineer or tech lead can read one clean piece and leave with the four-check harness audit and a reason to try it this week. Publish nothing until both approval boxes are checked. After the Article is live, put its permalink in the teaser where `ARTICLE_URL` appears (X counts that URL as 23 characters). The teaser below is counted with that slot included (246 / 280).
 
+Revision (Nov 10): added the "Doesn't Claude just run best in Claude Code?" section, which answers Jon's objection, and checked it with Edie. The current X Article draft on @JonLotti is `2120019786893570048` (unpublished). The connector can't edit or delete drafts, so the earlier draft `2120000068115738624` is out of date and should be deleted in X's editor.
+
 ## Article
 ### Title
 Fix the harness before you switch models
@@ -30,6 +32,14 @@ Don't expect a harness swap to lift pass rate on its own. In [Garry Tan's evalua
 What moved in Tan's run was cost and speed. On the same Opus 5.5 model, his report posted cost per solved task of about $0.19 for QM, $0.22 for Claude Code, $0.24 for Hermes Agent and $0.44 for OpenClaw, roughly twice as much for OpenClaw. Median time per trial ran from 40.1 seconds (Claude Code and QM) to 99.4 seconds (OpenClaw). On GPT-6.1 Sol, the Codex, OpenClaw and Hermes cells ran $0.17 to $0.22 per solved task (a descriptive range, with no cost test). "Fix the harness before you switch models" is not a promise that your pass rate will jump. On that set, it is a way to stop paying extra time and money for the same result.
 
 Those figures are labeled dev results on public tasks at pinned versions, not held-out confirmation. Claude Code and Codex were never compared with each other, because each can run only its own model. In that evaluation, two OpenClaw cells were incomplete, and QM ran on a different Docker network, so its pairs were not tested. Tan discloses that he runs the evaluation and related projects, that QM is a Y Combinator project, and that Y Combinator is an investor in Hermes.
+
+## "Doesn't Claude just run best in Claude Code?"
+
+That's the first objection an expert will raise, and it's a fair one. The short answer is: not by default, and not because of the logo.
+
+On Terminal-Bench 2.0, a harder, re-verified set of 89 container tasks scored as agent-model pairs, the same Claude Opus 4.6 model scored 58.0% in Claude Code and 62.9% in Terminus 2, the benchmark's reference harness. The same GPT-5.3-Codex model did better in its own lab's harness: 73.3% with Codex CLI against 64.7% with Terminus 2. Then [Terminal-Bench 2.1](https://www.tbench.ai/news/terminal-bench-2-1) fixed issues in 28 of the 89 tasks, and Claude Code with Opus 4.6 moved from 58.0% to 70.1% while Terminus 2 with Opus 4.6 moved from 62.9% to 63.8%. The lead flipped without changing the model, so some of what looks like a harness win is a benchmark artifact. Leaderboard rows can also differ in date, token budget and reasoning effort; they are not a randomized swap of the harness alone.
+
+Claude Code's own layers can be load-bearing, and you can inspect which ones. In Tan's results on harder v0.4 tasks, removing Claude Code's memory-and-skills text and tool-description advice together took its pass rate from 60.4% to 0.0% (more on that under Context below). Anthropic describes tuning its harness to what each model can't yet do on its own, and taking pieces out as models improve. A lab's own harness includes layers like those, and they're the same layers the four checks below have you inspect. You can build them into your own setup instead of hoping a model swap does it for you.
 
 ## 1. Context
 
@@ -69,7 +79,7 @@ In Tan's rule-placement work, an unmentioned skill sat unread on Claude Code and
 
 Run the four checks on your own setup before you pay for a model swap. If the same hard tasks fail in every harness, as three corrections tasks did across Tan's matrix, on Opus 5.5 and on GPT-6.1 Sol, I would not reach for another wrapper first. The next move may be a stronger model, a better verifier, or a different task breakdown.
 
-Treat public leaderboard gaps with care. [Terminal-Bench 2.0](https://www.tbench.ai/news/terminal-bench-2-1) is a harder, re-verified set of 89 container tasks, scored as agent-model pairs rather than as models alone. On that set, the same GPT-5.3-Codex model scored 73.3% with Codex CLI and 64.7% with Terminus 2, an 8.6-point gap. The same Claude Opus 4.6 model scored 58.0% with Claude Code and 62.9% with Terminus 2. Terminal-Bench 2.1 then fixed issues in 28 of those 89 tasks. After the task fixes, Claude Code with Opus 4.6 moved from 58.0% to 70.1% (+12.1 points), the largest gain reported, while Terminus 2 with Opus 4.6 moved from 62.9% to 63.8% (+0.9). The lead between those two harnesses flipped without changing the model. Some of what looks like a harness win is a benchmark artifact. Leaderboard rows can also differ in date, token budget and reasoning effort; they are not a randomized swap of the harness alone.
+Treat public leaderboard gaps with care, for the Terminal-Bench reasons above: some of what looks like a harness win is a benchmark artifact.
 
 The measurement I would try this week is simple: ten of your own recent tickets, with and without your current progress-file and test-hook setup.
 
