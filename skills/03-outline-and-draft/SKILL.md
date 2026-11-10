@@ -25,7 +25,7 @@ An outline, then a full draft using only what the brief supports.
 4. Write the file. That is the handoff.
 
 ## Definition of done
-Draft follows the outline; every claim traces to the brief; no new sources.
+Draft follows the outline; every claim traces to the brief; no new sources; no em dashes (—) in the draft (use a comma, period, colon or parentheses).
 
 ## Checks (added after repeat mistakes)
 - _None yet. The Reviewer adds checks here when a mistake happens twice._

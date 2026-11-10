@@ -28,4 +28,4 @@ A fact-checked final draft and a 1-5 score on each principle.
 Every principle scored; facts checked against brief; at most one send-back used.
 
 ## Checks (added after repeat mistakes)
-- _None yet. The Reviewer adds checks here when a mistake happens twice._
+- Search the draft for "—" and rewrite each one with a comma, period, colon or parentheses.

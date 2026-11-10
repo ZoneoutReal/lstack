@@ -28,4 +28,4 @@ Title, hooks, thread version, images, alt text, an X version (launch channel).
 X version is ready; every image has alt text; lead approval requested.
 
 ## Checks (added after repeat mistakes)
-- _None yet. The Reviewer adds checks here when a mistake happens twice._
+- No em dashes (—) in post copy, captions, titles, hooks, thread text or channel versions. Use a comma, period, colon or parentheses instead.
