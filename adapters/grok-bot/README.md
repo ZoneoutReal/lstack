@@ -14,7 +14,7 @@ One Grok bot per role. Bot instructions = role file; add the step's `SKILL.md` a
 | Vera, the Reviewer | `roles/reviewer.md` |
 
 ## Schedule
-Create one routine per entry in `routines/schedule.yaml`, using the same cron and timezone. Set each routine to stay silent when its input file is missing or not done.
+Create one routine per entry in `routines/schedule.yaml` (only the lead has one), using the same cron and timezone. Every other bot keeps no routine and runs when the previous step wakes it, per `handoffs`. Stay silent when the input file is missing or not done.
 ## Handoffs
 Bots share this repo (clone on the box). Each writes only its step's file.
 ## Human gates
