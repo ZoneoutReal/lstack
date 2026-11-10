@@ -11,7 +11,7 @@
 3. Skift and McKinsey found that more than 70% of travelers use AI for research and comparison, but fewer than 16% are comfortable booking through an AI tool. Help me look; don't book for me.
 
 ## Format note
-This week's X version is one long-form X Article plus a short teaser post, not a thread. The skill template still has a "Thread version" section; this replaces it on purpose. The piece is a seven-step oversight pattern with sourced evidence (Airbnb guest behavior, the Skift/McKinsey research-versus-booking split, a DeepSeek training-run result, Google OKRs and error budgets, NIST, the EU AI Act, and a New York Times report on Crosby). A thread would either drop those sources or run well past a comfortable length. This is also meant to be the first X Article: the earlier W46 harness package was shelved so the first Article would not be about Claude. The aim is that an engineer or tech lead can read one clean piece and leave with a pattern they can run this week. Publish nothing until both approval boxes are checked. Do not create, edit, or delete any X drafts from this file until a human asks. After the Article is live, put its permalink in the teaser where `ARTICLE_URL` appears (X counts that URL as 23 characters). The teaser below is counted with that slot included (247 / 280).
+This week's X version is one long-form X Article plus a short teaser post, not a thread. The skill template still has a "Thread version" section; this replaces it on purpose. The piece is a seven-step oversight pattern with sourced evidence (Airbnb guest behavior, the Skift/McKinsey research-versus-booking split, a DeepSeek training-run result, Google OKRs and error budgets, NIST, the EU AI Act, and a New York Times report on Crosby). A thread would either drop those sources or run well past a comfortable length. This is also meant to be the first X Article: the earlier W46 harness package was shelved so the first Article would not be about Claude. The aim is that an engineer or tech lead can read one clean piece and leave with a pattern they can run this week. Publish nothing until both approval boxes are checked. The X Article draft on @JonLotti is `2120029975235506176` (unpublished). Jon approves publish Friday. After the Article is live, put its permalink in the teaser where `ARTICLE_URL` appears (X counts that URL as 23 characters). The teaser below is counted with that slot included (247 / 280).
 
 ## Article
 ### Title
@@ -19,7 +19,7 @@ Oversee, don't block: close the loop on work you can check
 
 ### Body
 
-If you have to approve every step an agent takes, you have not taken yourself out of the work. You have made yourself [the bottleneck](https://x.com/Evoputa/status/2118923396948140506), and the agent saves little time. Careful oversight is not the same as watching every click.
+If you have to approve every step an agent takes, you have not taken yourself out of the work. You have made yourself the bottleneck, and the agent saves little time, [Ev Oputa](https://x.com/Evoputa/status/2118923396948140506) wrote in a public X post. Careful oversight is not the same as watching every click.
 
 Here is a short test that separates precision work from taste work and high-stakes work, plus a seven-step pattern you can run this week. It puts clear goals and measured results inside the loop, so you know when to step in without approving every step — and so the loop can improve itself over time.
 
@@ -98,7 +98,7 @@ Suggested pairing: thinking pose at the top of the Article, laptop pose near the
 
 ## Channel versions
 ### X (launch channel)
-Publish the Article first, then the teaser with the Article permalink. X is the only launch channel this week. Do not publish until both approval boxes below are checked. Do not create an X draft from this file until a human asks.
+Publish the Article first, then the teaser with the Article permalink. X is the only launch channel this week. Do not publish until both approval boxes below are checked. An unpublished draft is already saved on @JonLotti (see format note). Do not publish, post the teaser, or edit or delete other drafts.
 
 ### Later (not yet active): TikTok, LinkedIn, YouTube Shorts
 Not active yet.
