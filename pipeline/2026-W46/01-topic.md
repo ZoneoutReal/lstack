@@ -1,11 +1,11 @@
-# Topic pick — 2026-W46
+# Topic pick — 2026-W46 (replacement)
 
-**Picked:** Pitch 1 — Fix the harness before you switch models.
+**Picked:** Pitch 1 in 01-pitches.md: "Oversee, don't block: close the loop on work you can check."
 
-**Why:** strongest trend this week, a numbered audit the reader can run in an hour, and claims that trace to named public evals. Every figure must be confirmed against its original source; include the counterpoint that the model still sets the ceiling on hard tasks.
+**Why:** this is Jon's own idea and the clearest first Article he can speak to as himself. It gives one piece both builders and non-technical operators can use: a short test for whether work is about precision or taste, plus a numbered oversight pattern someone can run this week. The counterpoint must stay in: taste-heavy and high-stakes work belongs in the loop, and someone has to own the misses. Confirm any figure against its original source; drop the trending-story output numbers if they can't be confirmed.
 
-**Approved by:** Jon (Mon Nov 9, 9:54 PM ET; late because the Monday run was paused for the credit hold)
+**Format:** a single X Article on @JonLotti, saved as a draft only, plus a short teaser post. No thread. Nothing Claude-centric. Don't imply Jon uses tools he doesn't, including Hermes and OpenClaw.
 
-**Note from Jon for a future pitch (Intake):** closed-loop systems that let non-technical people take the human out of the loop and oversee instead of block, when the work is about precision and accuracy rather than taste.
+**Approved by:** Jon (Tue Nov 10, 12:21 AM ET).
 
-**Status: SHELVED (Tue Nov 10, 12:07 AM ET).** Jon would rather his first Article not be about Claude, since he doesn't use it much. Save this piece for later. Nothing was published. Unpublished X Article drafts 2120000068115738624 (outdated) and 2120019786893570048 (revised, see 05-package.md @ 7d92df9) stay in Jon's drafts. A replacement topic is needed for this week, and it shouldn't center on Claude.
+**History:** the earlier W46 pick ("Fix the harness before you switch models") was shelved for later at Jon's request. Its full pipeline, including the original pitches, is in shelved/2026-W46-harness/.
