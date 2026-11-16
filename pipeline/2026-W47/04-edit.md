@@ -57,3 +57,15 @@ No invented sources, numbers or results. Every figure traces to the brief and wa
 
 ## Send-backs
 0 of 1 used. Angle is sound: one team's boring checks set against DORA's baseline, with the limits of the numbers spelled out. Minor clarifications only; see `04-final.md`.
+
+## Pass 2: expert review (Jon's request via Chet)
+Wording changes only. No new numbers or sources; every new quote was re-checked against the talk captions or the DORA guide already cited.
+
+1. **Check 1 overstated.** Heading "Make the wrong thing impossible" became "Make the wrong thing hard". "ask whether a rule could make it impossible" became "make it hard to repeat". "an instruction the agent cannot skip" became "is far less likely to skip". The sources never mention blocking disable comments, so that was not added. Tan's own "categorically eliminated" stays as her quote.
+2. **"Deterministic" framing.** "five boring, deterministic checks" became "five boring checks ... (three that tooling enforces, one that asks for evidence, and one habit that keeps adding to the first three)". The headline and takeaway never said deterministic.
+3. **Formal verification separated.** "videos, screenshots, diagrams and formal verification. Formal methods have found bugs..." became "videos, screenshots and diagrams. Formal verification is a separate tool: her team uses it for "model checking of major user flows." It has found bugs, but..." (captions, about 11:00).
+4. **Tests not called static or deterministic in our voice.** The pyramid line now quotes her verbatim: "the first two layers are deterministic": the code itself and "lint rules, type systems, compilers, or you know, different kinds of testing." Check 3's "deterministic base of the pyramid" became "base of Tan's pyramid".
+5. **Stability vs performance.** Question 4 "Are stability and speed holding" became "Are stability and performance holding". Stability is now DORA's change fail rate and deployment rework rate ("deployments that are unplanned but happen as a result of an incident in production", [18]). Cold launch and typing latency are labeled performance, and the release pace stays alongside as shipping cadence.
+6. **Optional, done.** "ban 99% of comments" gained "(not all of them)". A line saying comments that explain why still matter was not added, because no source says so.
+
+Re-score: unchanged. Credible stays 5 and the claims are now tighter; Clear 4; average **4.6**.
