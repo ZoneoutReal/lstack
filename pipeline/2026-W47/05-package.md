@@ -148,7 +148,7 @@ ARTICLE_URL
 |---|---|
 | assets/lotti-pose-thinking.jpg | Lotti, a man with curly dark hair and a mustache, wearing an orange hoodie, chin in hand, looking up at a glowing lightbulb against an orange circle. |
 | assets/lotti-pose-laptop-circle.jpg | Lotti in an orange hoodie typing on a laptop at a wooden desk, a steaming white coffee mug beside him, inside an orange circle. |
-| assets/lotti-pose-thumbsup.jpg | Lotti in an orange hoodie giving a thumbs-up and a slight smile, against an orange circle. |
+| assets/lotti-pose-thumbsup.jpg | Lotti in an orange hoodie giving a thumbs-up with a slight smile and a sidelong glance, against an orange circle. |
 
 Suggested pairing: thinking pose at the top of the Article, laptop pose near "Make the cap real," thumbs-up near the takeaway.
 
@@ -168,7 +168,7 @@ For each clip the lead kept in `01-topic.md`. Jon clips and posts after approval
 
 ### Clip 2
 - **Source post URL:** https://x.com/mattyp/status/2122343944889483583 (Matt Palmer's 1.0 walkthrough; the Team Bot improvements chapter, the first chapter he lists in the post)
-- **Take (248 / 280):** Matt Palmer's Grok Bot 1.0 walkthrough opens with the Team Bot improvements. Worth knowing before you pitch a pilot: the official docs say Team Bots are on Team and Enterprise plans, so run it in its own small team workspace with a usage limit set.
+- **Take (249 / 280):** Matt Palmer's Grok Bot 1.0 walkthrough opens with the Team Bot improvements. Worth knowing before you pitch a pilot: the official pages say Team Bots are on Team and Enterprise plans, so run it in its own small team workspace with a usage limit set.
 
 ## Approval
 - [ ] Lead approved
