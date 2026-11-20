@@ -413,3 +413,55 @@ Qian, C., Liu, W., Liu, H., Chen, N., Dang, Y., Li, J., Yang, C., Chen, W., Su, 
 - Pennsylvania is the only US multi-use-case opt-in pilot report I found, and its time figure is self-reported. The article shouldn't lead with "95 minutes."
 - No source backs any specific stop-rule threshold. Every bar above is ours and should read that way in the article.
 - The final cites Dillon et al. as forthcoming in *American Economic Review: Insights* with p. 8 for the meetings quote. I checked the Working Paper version only (p. 7).
+
+## Addendum 6 (Nov 20): definition of AI agents
+
+**Why:** Wade's W47 rewrite (commit 5164d34) uses a working definition of "AI agents" labeled as ours. Below are two US government definitions that can be cited. Both are vendor-neutral, both were quoted from the original documents on Fri Nov 20, 2026, and both links open.
+
+### Definition A (best fit): Center for AI Standards and Innovation (CAISI), National Institute of Standards and Technology (NIST)
+> "AI agent systems are capable of planning and taking autonomous actions that impact real-world systems or environments. AI agent systems consist of at least one generative AI model and scaffolding software that equips the model with tools to take a range of discretionary actions. These systems may be more expansive, containing multiple sub-agents with software that orchestrates their interactions. They can be deployed with little to no human oversight. Other terms used to refer to AI agent systems include AI agents and agentic AI."
+
+**Location:** *Federal Register*, Vol. 91, No. 5, p. 699, Background section. The notice runs pp. 698 to 701.
+
+**Fit with the article:**
+- It names the parts the article means: planning, actions, a model *with tools*, and work that changes things outside the chat.
+- It covers several agents working together, which also fits W48.
+- It says outright that "AI agents" and "agentic AI" are other names for the same thing.
+- The same notice limits its scope to agents "capable of taking actions that affect external state, i.e., persistent changes outside of the AI agent system itself" (p. 700). That line draws the boundary between an agent and a chatbot.
+- **Caveat:** this is a request for information, not a finished standard. NIST's AI Agent Standards Initiative (announced February 2026) hasn't published a standard definition yet.
+
+### Definition B (plainest for an executive): US Government Accountability Office (GAO)
+> "Agentic artificial intelligence (AI) builds upon the capabilities of generative AI to not just create content, but also to make and adjust plans when the actions required to accomplish a goal are not clearly defined by a user. Unlike generative AI, AI agents can interact with their environment to perform tasks for users. For example, while a customer service generative AI system can respond to order status inquiries, an AI agent could interact with other software systems to process a return or exchange, or other complex customer issues."
+
+**Location:** GAO-25-108519, p. 1, "The Technology: What is it?"
+
+**Same page:** "There is no universally agreed upon definition of an AI agent."
+
+**Fit with the article:**
+- The customer-service example is the clearest way to show a non-technical executive the difference between a chatbot that answers and an agent that acts.
+- The "no universally agreed upon definition" line is a useful honesty note.
+- On p. 2, under Challenges, GAO also supports the article's risk line: "AI agents could misinterpret a user's goal or take unethical actions to achieve a goal... Without sufficient oversight, mistakes or unintended consequences could go undetected."
+- **Caveat:** GAO says the spotlight "is not an audit product and is subject to revision" (p. 2).
+
+**Which fits best:** use **A (NIST CAISI)** as the cited definition, because it names tools, multi-step planning and actions that change other systems. Optionally, add **B's customer-service example** to make it concrete.
+
+**Suggested plain-words sentence for Wade (sticks to the sources):**
+"An AI agent is software built on a generative AI model that can plan and carry out steps toward a goal, using tools to act in other systems (for example, processing a return rather than only answering a question about it), sometimes with little human oversight (Center for AI Standards and Innovation [CAISI], 2026; U.S. Government Accountability Office [GAO], 2025)."
+
+**Considered, not used:**
+- Russell and Norvig's textbook is classic, but its definition is broad: any agent that perceives and acts, including robots and thermostats. I couldn't check a page number at the original.
+- The NIST AI Agent Standards Initiative announcement describes agents but doesn't define them.
+
+### Dillon et al. page numbers (note for Edie)
+- The final cites p. 8 for "We find no similar shifts in the time workers spent in Teams meetings or working in Word." **That is correct as cited.** It refers to the accepted *American Economic Review: Insights* manuscript (AEA file, https://www.aeaweb.org/content/file?id=24562), where the quote is on p. 8 of the PDF. I checked this today.
+- **p. 7 refers to the National Bureau of Economic Research Working Paper 33795 (revised November 2025)**, which is the version Addendum 4 used.
+- Use one version consistently with its own page numbers. Don't mix p. 7 and p. 8.
+
+### APA 7 references
+Center for AI Standards and Innovation. (2026, January 8). Request for information regarding security considerations for artificial intelligence agents. *Federal Register, 91*(5), 698–701. https://www.federalregister.gov/documents/2026/01/08/2026-00206/request-for-information-regarding-security-considerations-for-artificial-intelligence-agents
+
+U.S. Government Accountability Office. (2025). *Science & tech spotlight: AI agents* (GAO-25-108519). https://www.gao.gov/products/gao-25-108519
+
+Dillon, E. W., Jaffe, S., Immorlica, N., & Stanton, C. T. (in press). Shifting work patterns with generative AI. *American Economic Review: Insights*. https://www.aeaweb.org/articles?id=10.1257/aeri.20250275
+
+**Link check:** the Federal Register page, the govinfo PDF (https://www.govinfo.gov/content/pkg/FR-2026-01-08/pdf/2026-00206.pdf) and both AEA links return 200. The GAO site returns 403 to command-line requests but opens through a web fetch (PDF: https://www.gao.gov/assets/gao-25-108519.pdf), so it works for readers.
