@@ -1,6 +1,6 @@
 # Package: Don't wait for the company rollout: run a four-week opt-in pilot of Grok team bots
 
-Rebuilt from scratch from `04-final.md` at 430f920 (Edie's Addendum 4 pass with the email-window correction, 2,498 words, average 4.6). The case is now productivity, not cost.
+Rebuilt from scratch from `04-final.md` at 5210e54 (Edie's expert fact-check pass on Wade's fd3a0e5 rework, 2,490 words, average 4.6). Everything packaged from fd3a0e5 or earlier is stale, including this file at 046d8f2.
 
 ## Title options (pick 1)
 1. **Don't wait for the company rollout: run a four-week opt-in pilot of Grok team bots** ← pick
@@ -8,77 +8,77 @@ Rebuilt from scratch from `04-final.md` at 430f920 (Edie's Addendum 4 pass with 
 3. Time the routine work: a four-week opt-in pilot of Grok team bots
 
 ## Hooks (3)
-1. "Leaders should be obligated to decide, not to stay silent." Lin and Parker (2025) of the Pew Research Center found that "half say their employer neither encourages nor discourages the use of AI chatbots at work" (p. 23). *(responsibility close, the piece's own line)*
-2. In a nationally representative US survey, Bick et al. (2025) report that "86% of respondents whose employer encourages genAI use report adopting it, compared to just 13% among those whose employer does not" (p. 16). The authors "caution that the estimated effect of employer encouragement is not necessarily causal" (Bick et al., 2025, p. 17). *(number, with its caveat)*
-3. In a randomized experiment published in *Science*, Noy and Zhang (2023) found that "The average time taken decreased by 40% and output quality rose by 18%" (p. 187). Label: short test tasks, not real jobs. We found no independent study of Grok Bot, so a pilot should time the team's own routine work. *(productivity, with its label)*
+1. "Leaders should be obligated to decide, not to stay silent." In a survey fielded in late 2024, Lin and Parker (2025) of the Pew Research Center found that "half say their employer neither encourages nor discourages the use of AI chatbots at work" (p. 23). *(responsibility close, the piece's own line)*
+2. In a nationally representative US survey, Bick et al. (2025) report that "86% of respondents whose employer encourages genAI use report adopting it, compared to just 13% among those whose employer does not" (p. 16). The authors "caution that the estimated effect of employer encouragement is not necessarily causal" (p. 17). *(number, with its caveat)*
+3. In a randomized experiment published in *Science*, Noy and Zhang (2023) found that "The average time taken decreased by 40% and output quality rose by 18%" (p. 187). Label: short test tasks, not real jobs. Grok Bot has no independent study we could find, so a pilot should time the team's own routine work. *(productivity, with its label)*
 
 ## Pull quotes (3)
 Verbatim from the body of `04-final.md` (not table cells), for use as Article call-outs or quote cards. Citations follow the final's APA style.
 1. "Leaders should be obligated to decide, not to stay silent."
 2. "86% of respondents whose employer encourages genAI use report adopting it, compared to just 13% among those whose employer does not" (Bick et al., 2025, p. 16). Keep the caveat beside it: the authors "caution that the estimated effect of employer encouragement is not necessarily causal" (Bick et al., 2025, p. 17).
-3. "We therefore suggest promising less note-taking strain, not shorter meetings."
+3. "We suggest promising less note-taking strain, not shorter meetings."
 
 ## Format note
-This week's X version is one long-form X Article plus a short teaser post, not a thread, as 01-topic.md sets out ("a single X Article on @JonLotti, saved as a draft only, plus a short teaser post. No thread."). The template's "Thread version" section is replaced by the Article on purpose. The X Article draft on @JonLotti is `2123864873545121792` (unpublished), built from the 430f920 final. Drafts `2123855369382342656`, `2123847069932662784`, `2123832534018490368` and `2122399960524099584` are superseded and should be deleted by hand in X's editor, because the connector can't delete drafts. Jon approves publish. The connector cannot read drafts back, so open the draft in X's editor and check the layout before approving, especially the comparison table and the italic labels. After the Article is live, put its permalink in the teaser where `ARTICLE_URL` appears (X counts that URL as 23 characters). The teaser below is counted with that slot included (270 / 280).
+This week's X version is one long-form X Article plus a short teaser post, not a thread, as 01-topic.md sets out ("a single X Article on @JonLotti, saved as a draft only, plus a short teaser post. No thread."). The template's "Thread version" section is replaced by the Article on purpose. The X Article draft on @JonLotti is `2123886691060498432` (unpublished), built from the 5210e54 final. Draft `2123864873545121792` (built from 430f920) and the earlier drafts `2123855369382342656`, `2123847069932662784`, `2123832534018490368` and `2122399960524099584` are superseded and should be deleted by hand in X's editor, because the connector can't delete drafts. Jon approves publish. The connector cannot read drafts back, so open the draft in X's editor and check the layout before approving, especially the comparison table and the italic labels. After the Article is live, put its permalink in the teaser where `ARTICLE_URL` appears (X counts that URL as 23 characters). The teaser below is counted with that slot included (270 / 280).
 
-**Docs check (Fri Nov 20, 2026, 2:43 PM ET, right before saving the draft):** no differences from the final. The Grok Bot meetings doc (last updated Nov 17) still says "Meetings are available on Team, Enterprise, Ultra, and Super plans" and joins "Google Meet, Zoom, or Microsoft Teams" calls. The teams doc (Nov 17) still has "every member has access without any admin action," "Enterprise only," SCIM and the Privacy Mode training line. Also unchanged: Team Bots "are available on Team and Enterprise plans" (1.0 post), "Alerts do not stop usage" (spending caps, Nov 17), "is included on Premium, Super, and Ultra" (pricing) and the routines trigger list (Nov 11).
+**Docs check (Fri Nov 20, 2026, 4:08 PM ET, right before saving the draft):** no differences from the final. The Grok Bot meetings doc (last updated Nov 17) still says "Meetings are available on Team, Enterprise, Ultra, and Super plans" and joins "Google Meet, Zoom, or Microsoft Teams" calls. The teams doc (Nov 17) still has "every member has access without any admin action," "Enterprise only," SCIM and the Privacy Mode training line. Also unchanged: Team Bots "are available on Team and Enterprise plans" (1.0 post, dated Nov 11, 2026), "Alerts do not stop usage" (spending caps, Nov 17), "is included on Premium, Super, and Ultra" (pricing) and the routines line "on a schedule, or when something happens" (Nov 11). The Dillon et al. abstract on the AER: Insights page (marked Forthcoming) still matches the email quote and "66 firms."
 
 ## Changes since 04-final
-No wording changes. The Article body below is `04-final.md` at 430f920 word for word, including the notes and references. Mechanical formatting in the X draft only: headings set as Article headings, lists as list items, bold and italic markdown set as bold and italic styles (asterisks removed), the comparison table embedded as a Markdown table block, and each reference URL made a link. In-text citations stay plain text.
+No wording changes. The Article body below is `04-final.md` at 5210e54 word for word, including the notes and references. Mechanical formatting in the X draft only: headings set as Article headings, lists as list items, bold and italic markdown set as bold and italic styles (asterisks removed), the comparison table embedded as a Markdown table block, and each reference URL made a link. In-text citations stay plain text.
 
-Packaging notes followed: no prices anywhere in the package's own text; the email two-hours figure is not used outside the Article, so its scopes (users only, second half of the six-month experiment) stay with it in the body; the only figure used in a hook carries its label (drafting, short test tasks); "we found no independent study" for Grok Bot; no hours saved for Grok Bot; no usage multiples; meetings framed as less note-taking strain, not shorter meetings; workslop not used outside the Article, where it keeps its vendor research label; 86% vs 13% kept with "not necessarily causal" beside it; "encouraged" for the data and "sanctioned" only for the proposal; never framed as beating a mandate; comparison wording is fit only, with no ranking words; lstack as structure only; no clip timestamps; Bick et al., Lin and Parker and Noy and Zhang cited as the final cites them. The final no longer has the Cursor quote.
+Packaging notes followed (Edie, 4:04 PM ET): the email two-hours figure appears only in the Article, with its scopes beside it (users of the tool only, second half of the six-month experiment, randomized trial across 66 firms, peer-reviewed and forthcoming in AER: Insights, Microsoft Research authors testing Microsoft 365 Copilot), and no "US or Europe"; escalations, drafting, notes, the 1.4% figure, workslop, the UK, DBT and Denmark stay in the Article with their labels as the final has them; the only figure in a hook outside the 86% vs 13% pair is drafting, with its "short test tasks" label; 86% vs 13% always carries "not necessarily causal"; the Pew finding carries "fielded in late 2024"; for Grok Bot, "no independent study we could find," no "maker of Grok," and read-only only as our suggestion; meetings framed as less note-taking strain, not shorter meetings; comparison wording is fit and difference only ("fits," "The differences appear to lie"), with no ranking words; no prices anywhere in the package's own text; lstack as structure only; no hours saved for Grok Bot; no clip timestamps.
 
 ## Article
 ### Title
 Don't wait for the company rollout: run a four-week opt-in pilot of Grok team bots
 
 ### Body
-Whether an employee uses generative AI at work can look like a personal choice, yet it appears to track whether the employer says yes. In a Federal Reserve Bank of St. Louis working paper, Bick et al. (2025) report from a nationally representative US survey that "86% of respondents whose employer encourages genAI use report adopting it, compared to just 13% among those whose employer does not" (p. 16). Yet Lin and Parker (2025) of the Pew Research Center found that "half say their employer neither encourages nor discourages the use of AI chatbots at work," while 12% say their employer encourages it (p. 23).
+Whether an employee uses generative AI at work can look like a personal choice, yet it appears to track whether the employer says yes. In a Federal Reserve Bank of St. Louis working paper, Bick et al. (2025) report from a nationally representative US survey that "86% of respondents whose employer encourages genAI use report adopting it, compared to just 13% among those whose employer does not" (p. 16). Yet in a survey fielded in late 2024, Lin and Parker (2025) of the Pew Research Center found that "half say their employer neither encourages nor discourages the use of AI chatbots at work," while 12% say their employer encourages it (p. 23).
 
-If silence is the norm, and encouragement goes with far more use, what can a cautious leader do while the company-wide rollout is still being planned? The purpose of this article is to propose a sanctioned, four-week opt-in pilot of Grok team bots. Secondly, it shows where AI saves time and mental effort on routine work, what the evidence does not show, and how to write a stop rule before the pilot starts.
+If silence is the norm, and encouragement goes with far more use, what can a cautious leader do while the company-wide rollout is still being planned? The purpose of this article is to propose a sanctioned, four-week opt-in pilot of Grok team bots. Secondly, it shows where AI saves time and mental effort on routine work, what the evidence does not show, and how to write a stop rule first.
 
 ## Two terms: shadow AI and sanctioned use
-Writing in *SN Computer Science*, Puthal et al. (2025) define shadow AI as the "deployment and usage of AI tools, models, or systems by employees of an organization without explicit endorsement, supervision, or management by IT and cyber security departments" (Introduction, para. 1). Here, sanctioned use means AI use the organization has explicitly endorsed and supervises (our wording, built by contrast with Puthal et al., 2025). The US surveys measure encouragement, which is not the same as sanction, and neither measures hidden use (Bick et al., 2025; Lin & Parker, 2025). We therefore do not call the 13% shadow AI users.
+Writing in *SN Computer Science*, Puthal et al. (2025) define shadow AI as the "deployment and usage of AI tools, models, or systems by employees of an organization without explicit endorsement, supervision, or management by IT and cyber security departments" (Introduction, para. 1). Here, sanctioned use means AI use the organization has explicitly endorsed and supervises (our wording, built by contrast with Puthal et al., 2025). The US surveys measure encouragement, which is not the same as sanction, and neither measures hidden use (Bick et al., 2025; Lin & Parker, 2025).
 
-## Encouragement is the lever
-Employer encouragement is the strongest pattern in the US evidence: "a worker is 65 percentage points more likely to use genAI for work if their employer encourages them to do so" (Bick et al., 2025, p. 17). The authors "caution that the estimated effect of employer encouragement is not necessarily causal" (p. 17), and no study we found compares opt-in with mandated rollouts. The case is therefore narrow: a sanctioned opt-in may serve a team more than waiting does, and the exec should sanction it out loud.
+## Encouragement goes with use
+Employer encouragement is the strongest predictor in one large US survey: "a worker is 65 percentage points more likely to use genAI for work if their employer encourages them to do so" (Bick et al., 2025, p. 17). The authors "caution that the estimated effect of employer encouragement is not necessarily causal" (p. 17), and no study we found compares opt-in with mandated rollouts. A sanctioned opt-in may therefore serve a team more than waiting does, if the exec sanctions it out loud.
 
 ## What the evidence says AI does for routine work
-The best evidence suggests that AI helps most with simple, repeatable work. We found no independent study of Grok Bot, and none of the studies below tested it.
+The best evidence suggests that AI helps most on well-defined writing and communication tasks, and most for less experienced workers. Grok Bot, launched Nov 11, 2026 by SpaceX Super Intelligence, has no independent study we could find, and none of the studies below tested it (SpaceX Super Intelligence, 2026c). These studies tested AI assistants that a person prompts or reviews, not bots that act on their own.
 
-- **Email.** In a randomized trial across 66 firms, Dillon et al. (2025) found that "In the second half of the 6-month experiment, the 80% of treated workers who used this tool spent two fewer hours on email each week and reduced their time working outside of regular hours" (abstract). *Label: not peer-reviewed; mostly US or Europe; Microsoft Research authors, testing Microsoft 365 Copilot.*
-- **Escalations.** In customer support, Brynjolfsson et al. (2023) found "an almost 25% decline in customer requests to speak to a manager" (p. 26). *Label: one US software firm; most agents outside the US, primarily in the Philippines.* Internal escalations are untested.
+- **Email.** In a randomized trial across 66 firms, Dillon et al. (in press) found that "In the second half of the 6-month experiment, the 80% of treated workers who used the tool spent two fewer hours on email each week" (abstract). *Label: peer-reviewed, forthcoming in American Economic Review: Insights; mostly Microsoft Research authors, testing Microsoft 365 Copilot.*
+- **Escalations.** In customer support, Brynjolfsson et al. (2025) found "an almost 25% decline in customer requests to speak to a manager," from a baseline of about 6% of chats (p. 933). *Label: one US software firm; most agents outside the US, mainly in the Philippines.* Internal escalations are untested.
 - **Drafting.** In a randomized experiment published in *Science*, Noy and Zhang (2023) found that "The average time taken decreased by 40% and output quality rose by 18%" (p. 187). *Label: peer-reviewed; short test tasks, not real jobs.*
-- **Notes.** Writing in *JAMA Network Open*, Olson et al. (2025) report that after 30 days with an AI note-taker, "burnout among those working in ambulatory clinics decreased significantly from 51.9% to 38.8%" (Key Points). *Label: clinicians' visit notes, not office meetings; "There was no control group"; authors tied to the vendor.*
+- **Notes.** Writing in *JAMA Network Open*, Olson et al. (2025) report that after 30 days with an AI note-taker, "burnout among those working in ambulatory clinics decreased significantly from 51.9% to 38.8%" (Key Points). *Label: clinicians' visit notes, not office meetings; volunteers, before-and-after survey; "There was no control group"; authors tied to the vendor.*
 
-Notes are about strain, not meeting time: in the email trial, "We find no similar shifts in the time workers spent in Teams meetings" (Dillon et al., 2025, p. 7). We therefore suggest promising less note-taking strain, not shorter meetings. Across all US workers, gains are modest: Bick et al. (2025) estimate "1.4% time savings across all workers (including non-users)" (p. 2). *Label: self-reported.*
+Notes are about strain, not meeting time: in the email trial, "We find no similar shifts in the time workers spent in Teams meetings" (Dillon et al., in press, p. 8). We suggest promising less note-taking strain, not shorter meetings. Across US workers, gains are modest: Bick et al. (2025) estimate "1.4% time savings across all workers (including non-users)" (p. 2). *Label: self-reported.*
 
 ## What the evidence does not show
 - **Many savings are self-reported.** A UK government trial reported that "Trial participants saved an average of 26 minutes a day" (Government Digital Service [GDS], 2025b), but the Department for Science, Innovation and Technology (2025) notes that "Figures are derived from self-reported daily time savings." *Label: not US.*
-- **AI output can create review work.** BetterUp Labs and Stanford Social Media Lab (2025) define workslop as "AI-generated work content that masquerades as good work, but lacks the substance to meaningfully advance a given task" and found that "40% of desk workers received workslop in the last month," with "1hr56m lost per incident" (p. 1). *Label: vendor research; BetterUp sells coaching.*
-- **Saved time may not show up in output or pay.** Dillon et al. (2025) "do not detect shifts in the quantity or composition of workers' tasks" (abstract), and in Denmark, Humlum and Vestergaard (2026) "estimate precise null effects on earnings and recorded hours" (abstract). *Label: Denmark is not US.*
-- **Gains are uneven.** Brynjolfsson et al. (2023) found "minimal impact on experienced and highly skilled workers" (abstract), and in the UK Department for Business and Trade (DBT) pilot, users "completed Excel data analysis more slowly and to a worse quality and accuracy than non-users" (DBT, 2025).
-- **Less effort can mean less checking.** Lee et al. (2025) found that "higher confidence in GenAI is associated with less critical thinking" (abstract). *Label: self-reported; mostly non-US; Microsoft Research authors.* Name who reviews AI output.
+- **AI output can create review work.** BetterUp Labs and Stanford Social Media Lab (2025) define workslop as AI-generated work content that "masquerades as good work" and found that "40% of desk workers received workslop in the last month," with "1hr56m lost per incident" (p. 1). *Label: vendor research; BetterUp sells coaching.*
+- **Saved time may not show up in output or pay.** Dillon et al. (in press) "do not detect shifts in the quantity or composition of workers' tasks" (abstract), and in Denmark, Humlum and Vestergaard (2026) "estimate precise null effects on earnings and recorded hours" (abstract). *Label: Denmark is not US.*
+- **Gains are uneven.** Brynjolfsson et al. (2025) found that "the most experienced and highest-skilled workers see small gains in speed and small declines in quality" (p. 889), and in the UK Department for Business and Trade (DBT) pilot, users "completed Excel data analysis more slowly and to a worse quality and accuracy than non-users" (DBT, 2025). *Label: DBT is not US.*
+- **Trusting AI more can mean checking less.** Lee et al. (2025) found that "higher confidence in GenAI is associated with less critical thinking" (abstract). *Label: self-reported; mostly non-US; Microsoft Research authors.* Name who reviews AI output.
 
-## Where Grok Bot fits next to tools a company may already have
-The overlap with tools a company already licenses is large: each offers some form of shared agents and scheduled work (Google, n.d.-c; OpenAI, 2026d; SpaceX Super Intelligence, 2026e). The differences appear to lie in where each tool lives and which meetings it joins, so we frame this as fit, not a ranking. Codex and ChatGPT share a column, since a ChatGPT Business Standard seat includes "access to ChatGPT, ChatGPT Work, and Codex" (OpenAI, 2026a).
+## Where Grok Bot fits
+The overlap with tools a company already licenses is large: each offers some form of shared agents and scheduled work (Google, n.d.-c; OpenAI, 2026d; SpaceX Super Intelligence, 2026e). The differences appear to lie in where each tool lives and which meetings it joins, so we frame this as fit, not a ranking.
 
 | | Grok Bot | ChatGPT Business or Enterprise (with Codex) | Microsoft 365 Copilot | Gemini for Google Workspace |
 |---|---|---|---|---|
 | **Shared agents** | Team Bots in Slack, Teams and calls | Workspace agents, shared or in Slack | Agent Builder and Copilot Studio | Gems, shareable in and outside the org |
 | **Scheduled work** | Schedules or events (Slack, GitHub, email) | Enterprise team tasks; Codex scheduled tasks | Scheduled prompts in Teams and Outlook | Up to 10 active schedules; Workspace Studio triggers |
 | **Joins meetings** | Joins Meet, Zoom and Teams calls | Record on macOS; auto-join Meet only | Facilitator in scheduled Teams meetings | Meet notes emailed to organizer (Business Standard and up) |
-| **Admin and data controls** | SCIM; no training with Privacy Mode | Enterprise SCIM and audit logs; no training on Business data | Enterprise Data Protection | Work chats not used to train models |
+| **Admin and data controls** | Enterprise SCIM; no training with Privacy Mode | Enterprise SCIM and audit logs; no training on Business data | Enterprise Data Protection | Work chats not used to train models |
 
-Sources: official product pages read Nov 20, 2026 (Google, n.d.-b, n.d.-c, n.d.-d, 2026; Google Workspace, 2025; Microsoft, n.d.-a, n.d.-b, n.d.-c, 2026; OpenAI, n.d.-a, n.d.-b, 2026a, 2026b, 2026c, 2026d; SpaceX Super Intelligence, 2026a, 2026b, 2026e, 2026g); see References. Pricing is in Note 1. Re-check before deciding.
+Sources: official product pages read Nov 20, 2026 (Google, n.d.-b, n.d.-c, n.d.-d, 2026; Google Workspace, 2025; Microsoft, n.d.-a, n.d.-b, n.d.-c, 2026; OpenAI, n.d.-a, n.d.-b, 2026a, 2026b, 2026c, 2026d; SpaceX Super Intelligence, 2026a, 2026b, 2026e, 2026g); see References. Pricing is in Note 1.
 
-Grok Bot fits a team that wants one shared assistant in Slack and Teams that joins Meet, Zoom and Teams calls and runs on triggers (SpaceX Super Intelligence, 2026a, 2026e, 2026g). Copilot fits a Microsoft 365 company and Gemini a Google Workspace one (Google, n.d.-a; Microsoft, n.d.-c). If the company already pays for one, the pilot should test what that tool does not cover for this team (e.g., joining Zoom calls), not replace it.
+Grok Bot fits a team that wants one shared assistant in Slack and Teams that joins calls and runs on triggers (SpaceX Super Intelligence, 2026a, 2026e, 2026g). Copilot fits a Microsoft 365 company and Gemini a Google Workspace one (Google, n.d.-a; Microsoft, n.d.-c). If the company already pays for one, the pilot should test what that tool does not cover for this team (e.g., joining Zoom calls), not replace it.
 
 ## What to test in the pilot
-Test the evidence-backed tasks on the team's own work: email, drafting and meeting notes. Two ideas have no verified study, so we label them untested: weekly status summaries and ticket routing. A Grok Bot routine can run "on a schedule, or when something happens, such as a Slack message, a GitHub, Linear, Sentry, or PagerDuty event, an email, or a webhook call" (SpaceX Super Intelligence, 2026e). Meeting notes need a plan that includes Meetings (Note 2).
+Test the evidence-backed tasks on the team's own work: email, drafting and meeting notes. Two ideas have no verified study, so we label them untested: weekly status summaries and ticket routing. A Grok Bot routine can run "on a schedule, or when something happens," such as an email or a GitHub event (SpaceX Super Intelligence, 2026e). Meeting notes need a plan that includes Meetings (Note 2).
 
 ## Write the stop rule before you start
-The GOV.UK Service Manual advises: "It's not a failure to stop at the end of the discovery phase if your research shows that's the best thing to do," and "around 4 to 8 weeks is typical" (GDS, 2021). Before day one, agree on:
+The GOV.UK Service Manual advises: "It's not a failure to stop at the end of the discovery phase if your research shows that's the best thing to do," and, for the discovery phase of a new service, "around 4 to 8 weeks is typical" (GDS, 2021). Before day one, agree on:
 
 - An end date four weeks out.
 - A time-and-quality test before and during (e.g., timing 3 to 5 routine tasks and counting review rework), not only self-report.
@@ -86,16 +86,13 @@ The GOV.UK Service Manual advises: "It's not a failure to stop at the end of the
 - An off-limits list, and a monthly usage limit (Note 3).
 
 ## Pick who joins
-Volunteers are not a random sample. DBT let colleagues "volunteer for a licence, until around ~70% of licences had been allocated," then assigned the rest at random (DBT, 2025). In current US work use, "genAI adoption is 6 percentage points higher for men" (Bick et al., 2025, p. 10). Self-selection may carry such gaps into a pilot, so mix the group: mostly volunteers, plus a few who did not volunteer.
+Volunteers are not a random sample. DBT let colleagues "volunteer for a licence, until around ~70% of licences had been allocated," then assigned the rest at random (DBT, 2025). In current US work use, "genAI adoption is 6 percentage points higher for men," a raw gap before other factors are accounted for (Bick et al., 2025, p. 10). Self-selection may carry such gaps into a pilot, so mix the group: mostly volunteers, plus a few who did not volunteer.
 
 ## Clear review first, and keep some work off the bot
-A central rollout has real strengths. The UK Government AI Playbook asks that "You know how to use AI securely" (GDS, 2025a), and several Grok Bot controls are "Enterprise only" (SpaceX Super Intelligence, 2026b). Invite that review. The boundary is team membership: on Teams, "every member has access without any admin action," so run the pilot in its own team workspace (SpaceX Super Intelligence, 2026b, 2026h). The UK trial found that "Human oversight was required at all times" (GDS, 2025b), and the Playbook asks that "humans validate any high-risk decisions influenced by AI" (GDS, 2025a). Name the off-limits work in writing.
-
-## How it runs day to day
-lstack, an open template for a small team of content bots, shows a structure, not results: "Files are the handoff," and "A human approves every publish. No exceptions" (lstack, 2026).
+A central rollout has real strengths. The UK Government AI Playbook asks that "You know how to use AI securely" (GDS, 2025a), and several Grok Bot controls are "Enterprise only" (SpaceX Super Intelligence, 2026b). Invite that review. The boundary is team membership: on Teams, "every member has access without any admin action," so run the pilot in its own team workspace (SpaceX Super Intelligence, 2026b, 2026h). The Playbook also asks that "humans validate any high-risk decisions influenced by AI" (GDS, 2025a). A bot that acts on its own can also act wrongly, so we suggest starting it read-only. Name the off-limits work in writing. lstack, an open template for a small team of content bots, shows one structure, not results: "Files are the handoff," and "A human approves every publish. No exceptions" (lstack, 2026).
 
 ## Takeaway
-Leaders should be obligated to decide, not to stay silent. Encouragement goes with far more use, and the wider evidence suggests real but uneven help with routine work, none of it about Grok Bot. A cautious exec can sanction one bounded pilot and ask for five things:
+Leaders should be obligated to decide, not to stay silent. The evidence suggests real but uneven help with routine work, none of it about Grok Bot. A cautious exec can sanction one bounded pilot and ask for five things:
 
 1. Sanction, said out loud, for one team workspace.
 2. A short list of routine tasks.
@@ -106,8 +103,8 @@ Leaders should be obligated to decide, not to stay silent. Encouragement goes wi
 If the pilot does not help, stopping is the result.
 
 ## Notes
-1. Pricing: Grok Bot is included on Premium, Super and Ultra; Microsoft 365 Copilot is an add-on to a Microsoft 365 plan; Gemini is included in Workspace plans; ChatGPT Enterprise is sold through sales (Google, n.d.-a; Microsoft, n.d.-c; OpenAI, n.d.-a; SpaceX Super Intelligence, 2026d).
-2. Team Bots "are available on Team and Enterprise plans" (SpaceX Super Intelligence, 2026c), and "Meetings are available on Team, Enterprise, Ultra, and Super plans" (SpaceX Super Intelligence, 2026a).
+1. Plans and pricing: Team Bots "are available on Team and Enterprise plans" (SpaceX Super Intelligence, 2026c). Grok Bot is included on Premium, Super and Ultra; Microsoft 365 Copilot is an add-on to a Microsoft 365 plan; Gemini is included in Workspace plans; ChatGPT Enterprise is sold through sales (Google, n.d.-a; Microsoft, n.d.-c; OpenAI, n.d.-a; SpaceX Super Intelligence, 2026d).
+2. "Meetings are available on Team, Enterprise, Ultra, and Super plans" (SpaceX Super Intelligence, 2026a).
 3. There is no Grok Bot-only cap. Set a monthly additional usage limit, because "Alerts do not stop usage" (SpaceX Super Intelligence, 2026f).
 
 ## References
@@ -115,13 +112,13 @@ BetterUp Labs & Stanford Social Media Lab. (2025). *The hidden cost of workslop:
 
 Bick, A., Blandin, A., & Deming, D. J. (2025). *The rapid adoption of generative AI* (Working Paper No. 2024-027F). Federal Reserve Bank of St. Louis. https://doi.org/10.20955/wp.2024.027
 
-Brynjolfsson, E., Li, D., & Raymond, L. R. (2023). *Generative AI at work* (Working Paper No. 31161). National Bureau of Economic Research. https://www.nber.org/system/files/working_papers/w31161/w31161.pdf
+Brynjolfsson, E., Li, D., & Raymond, L. (2025). Generative AI at work. *The Quarterly Journal of Economics, 140*(2), 889–942. https://doi.org/10.1093/qje/qjae044
 
 Department for Business and Trade. (2025). *The evaluation of the M365 Copilot pilot in the Department for Business and Trade*. GOV.UK. https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf
 
 Department for Science, Innovation and Technology. (2025, June 2). *Landmark government trial shows AI could save civil servants nearly 2 weeks a year* [Press release]. GOV.UK. https://www.gov.uk/government/news/landmark-government-trial-shows-ai-could-save-civil-servants-nearly-2-weeks-a-year
 
-Dillon, E. W., Jaffe, S., Immorlica, N., & Stanton, C. T. (2025). *Shifting work patterns with generative AI* (Working Paper No. 33795). National Bureau of Economic Research. https://www.nber.org/system/files/working_papers/w33795/w33795.pdf
+Dillon, E. W., Jaffe, S., Immorlica, N., & Stanton, C. T. (in press). Shifting work patterns with generative AI. *American Economic Review: Insights*. https://www.aeaweb.org/articles?id=10.1257/aeri.20250275
 
 Google. (n.d.-a). *Compare flexible pricing plan options*. Google Workspace. Retrieved November 20, 2026, from https://workspace.google.com/pricing
 
@@ -226,9 +223,9 @@ For each clip the lead kept in `01-topic.md`. Jon clips and posts after approval
 
 ### Clip 2
 - **Source post URL:** https://x.com/mattyp/status/2122343944889483583 (Matt Palmer's 1.0 walkthrough; the Team Bot improvements chapter, the first chapter he lists in the post)
-- **Take (249 / 280):** Matt Palmer's Grok Bot 1.0 walkthrough opens with the Team Bot improvements. Worth knowing before you pitch a pilot: the official pages say Team Bots are on Team and Enterprise plans, so run it in its own small team workspace with a usage limit set.
+- **Take (255 / 280):** Matt Palmer's Grok Bot 1.0 walkthrough opens with the Team Bot improvements. Worth knowing before you pitch a pilot: the official 1.0 post says Team Bots are on Team and Enterprise plans, so run it in its own team workspace with a monthly usage limit set.
 
-The final still supports clip 2's plan line (Note 2: Team Bots "are available on Team and Enterprise plans") and its own-workspace and usage-limit advice (the review section and Note 3).
+The final supports clip 2's plan line (Note 1: Team Bots "are available on Team and Enterprise plans," citing the 1.0 post) and its own-workspace and usage-limit advice (the review section, the stop-rule list and Note 3).
 
 ## Approval
 - [ ] Lead approved
