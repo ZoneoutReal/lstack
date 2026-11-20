@@ -99,3 +99,66 @@ The Team Bots and Meetings columns are inferred from claim 4's plan names ("Team
 - Don't claim hours saved for Grok Bot; there's no source. Treat the UK 26 minutes a day as self-reported and pair it with DBT's no-productivity-evidence finding.
 - The lstack loop is a structural example only: human approval, files as handoffs, OKRs per bot. Don't imply results, spend or which tools Jon uses beyond what 01-topic.md says.
 - Keep both required counterpoints visible: some work stays off a bot, and the cap and stop rule must be real.
+
+## Addendum (Nov 20): US source and definition
+
+Jon held the publish: his readers are American, so the Danish "used without employer encouragement" figure needs a US replacement, and the piece should define "sanctioned use" before using it. Everything below was checked at the original source on Fri Nov 20, 2026. Nothing above this section was changed.
+
+### What this replaces
+- **Claim 13, first sentence** (Humlum and Vestergaard: "about 41% have used AI chatbots at work at least once, and 7% use them daily" among Danish workers with no encouragement, enterprise chatbot or training). It is used in the hook of `04-final.md` and in pull quote 2 of `05-package.md`. Replace it with claim 13a.
+- **Optional: the Danish figures in claim 14** (76%, 57%, 69%, 93%, 28%). Claim 13a includes a US version of "employer encouragement goes with much higher take-up." Claims 17 (Danish gender gap) and 18 (Danish earnings) are also Danish; Jon's note didn't cover them. See open questions.
+
+### Replacement claims
+| # | Claim | Source (link) |
+|---|---|---|
+| 13a | **US: some workers use generative AI without employer encouragement, and encouragement goes with far more use.** Bick, Blandin and Deming, using the Real-Time Population Survey (RPS), "a series of nationally representative U.S. surveys" (abstract): "The RPS asked workers 'Does your employer encourage you to use Generative AI for your job?'. Employer encouragement is highly correlated with adoption: 86% of respondents whose employer encourages genAI use report adopting it, compared to just 13% among those whose employer does not." (Working paper 2024-027F, Oct 2025 revision, p. 16.) Adoption at work is a yes to "Do you use Generative AI for your job?" (question wording, p. 5). In Table 1 (p. 17; August and November 2024 RPS waves, employed ages 18 to 64, N = 6,883), "a worker is 65 percentage points more likely to use genAI for work if their employer encourages them to do so," and the authors "caution that the estimated effect of employer encouragement is not necessarily causal." The paper is now published in *Management Science* (2026). | https://doi.org/10.20955/wp.2024.027 (resolves to the Fed PDF) ; published version: https://doi.org/10.1287/mnsc.2025.02523 (paywalled; the 13% sentence was checked only in the working paper) |
+| 13b | **Most US employers haven't taken a side.** Pew Research Center (survey of 5,273 employed US adults, Oct 7 to 13, 2024): "Among all workers who are not self-employed, half say their employer neither encourages nor discourages the use of AI chatbots at work. Some 12% say their employer encourages it, and 8% say their employer discourages it." The 29% who hadn't heard of workplace AI chatbot use weren't asked (chart note, report p. 23). | https://www.pewresearch.org/social-trends/2025/02/25/workers-experience-with-ai-chatbots-in-their-jobs/ ; report PDF: https://www.pewresearch.org/wp-content/uploads/sites/20/2025/02/ST_2025.2.25_AI-Workers_REPORT.pdf |
+| 13c | **US workers are the most likely to get employer support, yet many still get none.** Bick, Blandin, Deming, Fuchs-Schündeln and Jessen (Brookings Papers on Economic Activity conference draft, March 2026; worker survey Jan to Feb 2026, about 3,000 respondents per country): "The US also exhibits the lowest share of workers receiving none of the three supports we consider (44%, versus 69% in France and 70% in Italy)." The three supports are employer encouragement, AI training and AI tool provision (p. 28, Figure 14b). Their pooled figure that 10% of workers with no encouragement, training or tools adopted AI covers all countries together, with country fixed effects. It isn't a US figure, so don't use it as one. | https://www.brookings.edu/wp-content/uploads/2026/03/6%5FBick-et-al%5Funembargoed.pdf |
+
+**Suggested wording for the writer** (the writer's call; stays within the sources): "Most US employers haven't said anything either way: half of workers say their employer neither encourages nor discourages AI chatbots (Pew). Some people use it anyway: 13% of US workers whose employer doesn't encourage generative AI say they use it for their job. Where employers do encourage it, 86% do (Bick, Blandin and Deming)."
+
+### Is it a true US match for the Danish figure? Not exactly.
+| | Denmark (Humlum and Vestergaard, claim 13) | US (Bick, Blandin and Deming, claim 13a) |
+|---|---|---|
+| Who | Workers in 11 occupations highly exposed to AI chatbots | All employed adults ages 18 to 64, nationally representative |
+| Condition | Employer neither encourages chatbot use, nor provides an enterprise chatbot, nor offers training | Employer does not encourage genAI use (no condition on tools or training) |
+| Outcome | Ever used AI chatbots at work (41%); daily use (7%) | Says yes to "Do you use Generative AI for your job?" (13%) |
+| When | Late 2024 | August and November 2024 |
+
+The US figure is the closest rigorous match found. It's lower than 41% mainly because it covers all workers, not only highly exposed occupations. **Don't put 41% and 13% side by side as a US-versus-Denmark comparison.** Also, "not encouraged" isn't the same as "unsanctioned": an employer can allow a tool without encouraging it. Neither study measures use the employer has forbidden or doesn't know about.
+
+### Closest direct "unsanctioned use" US figure (weaker; use with care, or not at all)
+- KPMG and the University of Melbourne, *Trust, attitudes and use of artificial intelligence: A global study 2025*. Led by Gillespie and Lockey (Melbourne Business School) with KPMG; 48,000+ people in 47 countries, including 1,019 in the US, Nov 2024 to Jan 2025. The US press release says: "Half of the U.S. workforce reported that they use AI tools at work without knowing whether it is allowed and more than four in ten (44%) are knowingly using it improperly at work." The US snapshot PDF shows "44% used AI in ways that contravene policies and guidelines" (p. 2, Workplace indicators). Caveats: the "half ... without knowing whether it is allowed" figure appears in the press release but not in the US snapshot; the base (all workers or AI-using workers) isn't stated next to the figures; and KPMG sells AI advisory services. It measures unsanctioned use more directly than 13a does, but it's less rigorous and less clear. Links: https://kpmg.com/us/en/media/news/trust-in-ai-2025.html ; https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2025/trust-attitudes-and-use-of-artificial-intelligence-us-summary-report.pdf
+
+### Definition: sanctioned vs. unsanctioned ("shadow") AI use
+- Puthal et al. (2025), *SN Computer Science* (peer-reviewed, open access), Introduction, paragraph 1: "Such deployment and usage of AI tools, models, or systems by employees of an organization without explicit endorsement, supervision, or management by IT and cyber security departments is defined as Shadow AI." The abstract says: "Shadow AI implies the usage of AI tools and systems by individuals within an entity, respectively, without permission thereby implying that these tools were not directly monitored or controlled by the centralized IT or security department." The article has no page numbers, so cite it by section and paragraph. https://link.springer.com/article/10.1007/s42979-025-03962-x
+- No source found defines "sanctioned use" on its own; it's defined by contrast with shadow AI. Suggested plain-words definition, built from the quote: *sanctioned use* is AI use the organization has explicitly endorsed and supervises; *unsanctioned* or *shadow AI* is use without that endorsement or oversight. If the piece wants a quote, quote Puthal et al.; don't present our paraphrase as theirs.
+- Not used: Ross, Hibbert and Moss (2025, IEEE ACDSA), "Shadow AI: Governance, Risk, and Organisational Resilience." Secondary summaries credit it with defining shadow AI as "the unsanctioned, informal use of artificial intelligence technologies within organisations," but IEEE Xplore returned 403 and the text couldn't be checked at source.
+
+### Counterpoints and caveats
+- **The US number makes "people aren't waiting" a weaker hook.** 13% is much lower than Denmark's 41%. The US evidence better supports "employer encouragement is the biggest lever" (86% vs 13%; 65 points in the regression) than "everyone's already doing it." The hook may need to lead with Pew's "half of employers are silent" and the encouragement gap instead.
+- **Correlation, not causation.** The authors say the encouragement effect "is not necessarily causal as it may be highly correlated with a worker's roles and responsibilities."
+- **Data age.** The 86%/13% split comes from 2024 survey waves. US use has risen since: Gallup's Q2 2026 workforce panel reports 52% use AI in their role (https://www.gallup.com/workplace/712736/organizational-adoption-jumps-six-points.aspx). But no newer public encouragement split was found.
+- **Self-report.** All of these are survey answers. Shadow use is probably under-reported if people hide it, and the KPMG release says 53% "claim to present AI-generated content as their own."
+- **The Microsoft and LinkedIn "78% BYOAI" figure in claim 13 is global and from a vendor.** It isn't a US figure. If the piece keeps it, say so; for a US-only paper, consider dropping it in favor of 13a and 13b.
+
+### APA 7 references
+Bick, A., Blandin, A., & Deming, D. J. (2025). *The rapid adoption of generative AI* (Working Paper No. 2024-027F). Federal Reserve Bank of St. Louis. https://doi.org/10.20955/wp.2024.027
+
+Bick, A., Blandin, A., & Deming, D. J. (2026). The rapid adoption of generative AI. *Management Science, 72*(10), 8440–8456. https://doi.org/10.1287/mnsc.2025.02523
+
+Bick, A., Blandin, A., Deming, D. J., Fuchs-Schündeln, N., & Jessen, J. (2026, March 26–27). *Mind the gap: AI adoption in Europe and the US* [Conference draft]. Brookings Papers on Economic Activity, Spring 2026, Washington, DC, United States. https://www.brookings.edu/wp-content/uploads/2026/03/6%5FBick-et-al%5Funembargoed.pdf
+
+Lin, L., & Parker, K. (2025, February 25). *U.S. workers are more worried than hopeful about future AI use in the workplace*. Pew Research Center. https://www.pewresearch.org/social-trends/2025/02/25/u-s-workers-are-more-worried-than-hopeful-about-future-ai-use-in-the-workplace/
+
+Puthal, D., Mishra, A. K., Mohanty, S. P., Longo, A., & Yeun, C. Y. (2025). Shadow AI: Cyber security implications, opportunities and challenges in the unseen frontier. *SN Computer Science, 6*(5), Article 405. https://doi.org/10.1007/s42979-025-03962-x
+
+KPMG. (2025, April 29). *The American trust in AI paradox: Adoption outpaces governance* [Press release]. https://kpmg.com/us/en/media/news/trust-in-ai-2025.html (only if the KPMG figure is used)
+
+Gillespie, N., Lockey, S., & KPMG. (2025). *Trust, attitudes and use of artificial intelligence: A global study 2025 — USA insights* [Fact sheet]. The University of Melbourne & KPMG. https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2025/trust-attitudes-and-use-of-artificial-intelligence-us-summary-report.pdf (only if the KPMG figure is used)
+
+### Open questions
+- Should the piece cite the *Management Science* version, the journal of record, or the open working paper? The 13% sentence was checked only in the working paper (Oct 2025); the journal page returned 403. If the writer cites the journal, someone with access should confirm the sentence survived peer review.
+- Is there a newer US split of use by employer encouragement than the 2024 RPS waves? The public FRED series (RPSGENAIUSAGESHAREWORK) gives overall work use through 2026 Q3 but not by encouragement.
+- Should claims 17 (Danish gender gap) and 18 (Danish null earnings effects) also get US replacements, or stay as clearly labeled international evidence? No US study with the same design was searched for in this pass.
+- Does Jon want "sanctioned" defined as *endorsed and supervised by the organization*, the Puthal et al. framing, which centers IT and security, or more broadly as *allowed by the employer*? The two differ, and the US data measure *encouragement*, which is neither.
