@@ -1,42 +1,58 @@
-# Outline — Don't wait for the company rollout: run a four-week opt-in pilot of Grok team bots
+# Outline — Don't wait for the company rollout: sanction a capped, four-week opt-in pilot of AI agents
 
-Fact-check pass on Edie's 04-final at 430f920, with the 14 fixes Chet relayed from Jon. Measured as X counts (table rows and URLs left out, references and notes included): 2,497 words.
+Rewrite for Direction update 5 (01-topic.md, f76fa55) and Addendum 5 (02-brief.md, c7c604c), reusing Edie's 04-final at 5210e54. W47 is now a tool-agnostic case for executives. The Grok Bot role-team article moves to W48. Measured as X counts (table rows and URLs left out, references included).: 2,434 words.
 
-- **Hook:** 86% vs 13% (claim #13a; Bick et al., Federal Reserve Bank of St. Louis), then, in a survey fielded in late 2024 (Oct. 7-13, 2024), half neither encourage nor discourage and 12% encourage (#13b; Lin and Parker, Pew Research Center).
-- **Pivot (one rhetorical question):** If silence is the norm, what can a cautious leader do while the rollout is planned?
-- **Promise / purpose:** "The purpose of this article is" to propose a sanctioned four-week opt-in. Secondly, it shows where AI saves time and mental effort on routine work, what the evidence does not show, and how to write a stop rule first.
+- **Hook:** 86% vs 13% (claim #13a; Bick et al., Federal Reserve Bank of St. Louis). Then, in a survey fielded in late 2024, half say their employer neither encourages nor discourages AI chatbots, and 12% say it encourages them (#13b; Lin and Parker, Pew Research Center).
+- **Pivot (one rhetorical question):** If silence is the norm, what can a cautious leader do while the company-wide rollout is still being planned?
+- **Promise / purpose:** "The purpose of this article is" to make the case for sanctioning a capped, four-week opt-in pilot of AI agents across several uses. Secondly, it shows that results differ by use, why tasks should be timed rather than estimated, what the evidence does not cover, and a stop rule in plain words.
 
 ## Sections
-1. Two terms — Puthal et al. definition (addendum 1); sanctioned use flagged as our wording; encouragement is not sanction
-2. Encouragement goes with use — #13a, "the strongest predictor in one large US survey" (65 points), with the not-necessarily-causal caveat; no head-to-head mandate study; counterpoint 6
-3. What the evidence says AI does for routine work — framed as helping most on well-defined writing and communication tasks, and most for less experienced workers. Grok Bot launched Nov 11, 2026 by SpaceX Super Intelligence (maker of Grok), with no independent study; these studies tested AI assistants a person prompts or reviews, not bots that act on their own.
-   - P1 email: Dillon et al. (in press), *American Economic Review: Insights*; label peer-reviewed, forthcoming; quotes checked against the accepted manuscript on aeaweb.org.
-   - P2 escalations: Brynjolfsson et al. (2025), *The Quarterly Journal of Economics* 140(2), 889-942; "almost 25%" quote on p. 934, from a baseline of about 6% of chats.
-   - P3 drafting: Noy and Zhang (2023).
-   - P4 notes: Olson et al. (2025); label adds "volunteers, before-and-after survey"; framed as strain, not time, with P1's no-change-in-meetings finding.
-   - P6: modest US savings, self-reported.
-4. What the evidence does not show — all five Addendum 4 counterpoints: self-reported (#10 and DSIT); workslop (BetterUp, vendor label); output and pay (P1; Humlum and Vestergaard, not US); uneven (P2 QJE abstract wording, #11 DBT Excel, labeled not US); "Trusting AI more can mean checking less" (P5 Lee et al.)
-5. Where Grok Bot fits — four-row table (map below); fits-when paragraph; "test what that tool does not cover" kept
-6. What to test in the pilot — evidence-backed tasks; status summaries and ticket routing labeled untested; routine triggers (G5); Meetings plan gate in Note 2
-7. Write the stop rule — #9 ("not a failure to stop"; 4 to 8 weeks, stated as the guidance for the discovery phase of a new service); time-and-quality test; review burden as a kill condition; spend limit in Note 3
-8. Pick who joins — #12, #17-US (6 points, called a raw gap); counterpoint 2
-9. Clear review first — #19, #7 boundary; new risk line: a bot that acts on its own can also act wrongly, so start it read-only; lstack as a structural example only (#20), folded in here; counterpoints 1 and 5
-10. Notes:
-    - Note 1 leads with plans: Team Bots need a Team or Enterprise plan (#4). It then gives pricing structure only, with no dollar figures, following Addendum 4: Grok Bot on Premium, Super and Ultra; Copilot an add-on to a Microsoft 365 plan; Gemini included in Workspace; ChatGPT Enterprise through sales.
-    - Note 2: Meetings plans (#4 with the Super correction).
-    - Note 3: the usage limit (#5).
+1. **Three terms** — shadow AI (Puthal et al., addendum 1); sanctioned use (our wording, by contrast); AI agents (plain working definition, our wording, flagged: no source in the brief defines it); encouragement is not sanction.
+2. **Encouragement goes with use** — #13a (65 points, "not necessarily causal"); no opt-in vs mandate study (Addendum 5 §1, thin).
+3. **Real pilots cover several uses** — Addendum 5 §1:
+   - P1 integrated "for email, meetings, and writing".
+   - UK and DBT pilots, #8 (20,000 staff; DBT's 1,000 licences, 3 months).
+   - Pennsylvania (US, new): 175 volunteers, 14 agencies, use mix 36/27/13%. Its 95 minutes is placed late and labeled self-reported, one tool, OpenAI-led trainings, not representative, "did not eliminate, human input".
+4. **Results differ by use** — Addendum 5 §1:
+   - email fell, meetings didn't (P1, Dillon et al., in press, p. 8);
+   - drafting (P3);
+   - escalations (P2, p. 933);
+   - notes and strain (P4);
+   - DBT "Small time savings ... across most use cases" but Excel worse (#11);
+   - modest US average (P6).
+   - Each keeps its Addendum 4 label. Dillon's label no longer says "mostly US or Europe".
+   - Grok Bot is one example tool; none of these studies tested it.
+5. **Time the work, don't ask** — METR (Becker et al.): forecast 24%, believed 20%, actually 19% slower; labeled preprint, small sample, expert coders. UK 26 minutes and DSIT self-report note (#10).
+6. **What the evidence does not show, and what is thin** — Addendum 4 counterpoints (workslop, output and pay, uneven, trusting AI more means checking less). Addendum 5 thin list stated plainly: no multi-tool study; no workplace study of agents acting on their own; teams an open question (Pennsylvania p. 54); no opt-in vs mandate study.
+7. **Design the pilot** — use cases, each with a tool and an owner, and a baseline (Addendum 5 §2, ours). Who joins: DBT ~70/30 (#12), the raw gap (#17-US), Pennsylvania not representative. Review first: Playbook quotes (#19). Spending limit set in each tool before day one (ours, Addendum 5 §3). Risk line: an agent that acts on its own can act wrongly, so start it read-only (ours).
+8. **The stop rule** — GOV.UK: "It's not a failure to stop" and 4 to 8 weeks for a discovery phase (#9). Five measures judged per use case, at baseline, week 2 and week 4. Table bars labeled ours. End-date decision (ours) replaces "stopping is the result".
+9. **Takeaway** — leaders' obligation; five asks.
 
-### Main table cell map (vendor letters as in the reference list)
-| Row | Grok Bot | ChatGPT (with Codex) | Microsoft 365 Copilot | Gemini for Workspace |
-|---|---|---|---|---|
-| Shared agents | [G3] SpaceX 2026g | [O2] OpenAI 2026d | [M1] Microsoft n.d.-c | [W2] Google Workspace 2025 |
-| Scheduled work | [G5] SpaceX 2026e | [O3] OpenAI 2026b; [O10] OpenAI n.d.-b | [M4] Microsoft 2026 | [W4] Google n.d.-c; [W5] Google n.d.-b |
-| Joins meetings | [G4] SpaceX 2026a | [O5] OpenAI 2026c | [M3] Microsoft n.d.-a | [W3] Google 2026 |
-| Admin and data controls | [G7] SpaceX 2026b: Enterprise SCIM ("Available on the Enterprise plan"); Privacy Mode no training | [O6] OpenAI n.d.-a; [O1] OpenAI 2026a | [M2] Microsoft n.d.-b | [W7] Google n.d.-d |
+### Stop-rule table cell map (Addendum 5 §2)
+| Measure | What we count | Bar (ours) | Source for the measure |
+|---|---|---|---|
+| Time by the clock | Addendum 5 §2 row 1 | row 1 | P1, P3, METR p. 10; #10 and Pennsylvania p. 33 as self-report contrast |
+| Errors and rework | row 2 | row 2 | P3, #11, P2 (QJE abstract) |
+| Minutes checking AI output | row 3 | row 3 | workslop (vendor), P5, Pennsylvania p. 34 |
+| Use falling off | row 4 | row 4, cut-off set by the team | #10 (83%, ~80%), Pennsylvania p. 43 |
+| Security incidents | row 5 | row 5 | #19, Pennsylvania p. 48 |
 
-### Cut or demoted
-- **Addendum 4 list (unchanged):** cost argument out; no dollar prices anywhere; Addendum 3 price row and appendix cut.
-- **Cut for length this pass:** the after-hours clause of the P1 quote; the full workslop definition (now a short quoted fragment); the Codex-in-ChatGPT sentence; the UK trial's "Human oversight" quote; the full routine trigger list; the "do not call the 13% shadow AI users" line; the lstack heading.
+Counterpoints: all five Addendum 4 counterpoints used (§6). The METR and Pennsylvania caveats are used.
+
+### Dropped or moved
+Dropped per the Addendum 5 drop list:
+- the Grok Bot fit table and section, and the Addendum 3 comparison;
+- claims 1 to 6, the pricing table, the spend template, and Notes 1 to 3;
+- "stopping is the result";
+- the Grok Bot launch line and the Grok routine sentence;
+- all vendor product-page references.
+
+Moved to W48: claim 7 (team-membership boundary), the Grok rollout checklist (#19 second half), lstack as a worked example (#20), and the Addendum 5 §4 notes.
 
 ## Close / call to action
-Leaders should be obligated to decide, not to stay silent. Five asks: sanction for one team workspace; a short task list; timed tasks before and during; a named reviewer and an off-limits list; an end date and stop rule agreed before day one. Stopping is a legitimate result (#9).
+Leaders should be obligated to decide, not to stay silent. Five asks:
+1. Sanction, said out loud.
+2. A short list of use cases, each with a tool, an owner and a baseline.
+3. A spending limit in each tool.
+4. A named reviewer, an off-limits list and read-only access first.
+5. The five-measure stop rule with week 2 and week 4 checks, agreed before day one.
