@@ -26,7 +26,7 @@ This week's X version is one long-form X Article plus a short teaser post, not a
 ## Changes since 04-final
 No wording changes. The Article body below is `04-final.md` at daff1c0 word for word, including the references. Mechanical formatting in the X draft only: headings set as Article headings, lists as list items, bold and italic markdown set as bold and italic styles (asterisks removed), the stop-rule table embedded as a Markdown table block, and each reference URL made a link. In-text citations stay plain text.
 
-Packaging notes followed (Edie): tool-agnostic framing, with no agent product named or pitched in the title, hooks, teaser or clip takes; the CAISI and GAO definition and "no universally agreed upon definition" stay in the Article; the 95-minute figure is not used outside the Article, where it carries its exit-survey and self-reported labels and does not lead; the METR result used in a hook and the teaser carries preprint, small sample and expert coders; email, escalations, drafting, notes, the UK and DBT (not US, with adoption defined as active in the previous 30 days), 1.4% (self-reported), workslop (vendor research) and Denmark (not US) stay in the Article with their labels as the final has them; 86% vs 13% always carries "not necessarily causal"; the stop rule, the bars and read-only access are framed as our suggestion; comparisons only as "differ" (as in "Results differ by use"), with no ranking words; no prices anywhere.
+Packaging notes followed (Edie): tool-agnostic framing, with no agent product named or pitched in the title, hooks or teaser; the CAISI and GAO definition and "no universally agreed upon definition" stay in the Article; the 95-minute figure is not used outside the Article, where it carries its exit-survey and self-reported labels and does not lead; the METR result used in a hook and the teaser carries preprint, small sample and expert coders; email, escalations, drafting, notes, the UK and DBT (not US, with adoption defined as active in the previous 30 days), 1.4% (self-reported), workslop (vendor research) and Denmark (not US) stay in the Article with their labels as the final has them; 86% vs 13% always carries "not necessarily causal"; the stop rule, the bars and read-only access are framed as our suggestion; comparisons only as "differ" (as in "Results differ by use"), with no ranking words; no prices anywhere.
 
 ## Article
 ### Title
@@ -169,19 +169,7 @@ Publish the Article first, then the teaser with the Article permalink. X is the 
 Not active yet.
 
 ## Clip takes
-For each clip the lead kept in `01-topic.md`. Jon clips and posts after approval; we do not post. X Clipping credits and links the original video. Timestamps are not verified, so the takes describe the moment rather than citing a clock mark. Both kept clips are about one product, so the takes do not name it and only make the article's tool-agnostic points (see open call below).
-
-### Clip 1
-- **Source post URL:** https://x.com/bot/status/2120582957782200586 (official 1.0 launch trailer, about 79 seconds; the moment where it presents bots as teammates you can share and invite to meetings)
-- **Take (259 / 280):** Launch trailers like this one pitch AI bots as teammates you can share and invite to meetings. Workplace evidence on agents that act on their own is thin, so don't take a demo's word for it: run a capped, four-week opt-in pilot and time the work by the clock.
-
-### Clip 2
-- **Source post URL:** https://x.com/mattyp/status/2122343944889483583 (Matt Palmer's 1.0 walkthrough; the first chapter he lists in the post, on improvements for team bots)
-- **Take (260 / 280):** Matt Palmer's walkthrough opens with improvements to bots that teams share. Before your team tries any tool like this, write the test down: a baseline on 3 to 5 real tasks, a named reviewer, read-only access first, and a stop rule checked at week 2 and week 4.
-
-The final supports both takes: "We found no workplace study of agents that act on their own in an opt-in pilot," the "where it is thin" section, the baseline on "3 to 5 real tasks per use case," the named reviewer, read-only first (our suggestion), and the stop rule checked "at week 2 and again at week 4."
-
-**Open call for Chet:** both clips `01-topic.md` keeps are product clips for one tool, chosen when W47 was the single-product pilot paper. They fit the W48 team article directly. The takes above support the tool-agnostic case honestly without naming the product, but the clip itself still shows it. Chet decides whether to keep them for W47 or move them to W48.
+No clips for W47. Both clips kept in `01-topic.md` moved to W48 per Chet (Fri Nov 20, 2026), so W47 stays tool-agnostic.
 
 ## Approval
 - [ ] Lead approved
