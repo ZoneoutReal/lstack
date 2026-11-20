@@ -6,7 +6,7 @@ Piece: "Don't wait for the company rollout: run a capped, four-week opt-in." Jon
 Counted as X counts it: the whole file, excluding table rows and URLs, references included. That method gives 3,951 for 4eead5b and 2,497 for Wade's draft, matching Wade's figures. `04-final.md`: **2,495**, or 1,830 for the body without references. Every addition below is offset by cuts.
 
 ## Fact-check
-A script diffed every quoted fragment, split at each ellipsis, against live page text fetched Fri Nov 20, 2026, after 1:30 PM. All 44 checkable fragments are verbatim. Not script-checkable:
+A script diffed every quoted fragment, split at each ellipsis, against live page text fetched Fri Nov 20, 2026, after 1:30 PM. All 43 checkable fragments are verbatim. Not script-checkable:
 - Scare quotes: "not worth the cost", "Capped spend".
 - Puthal et al.: Springer blocks scripted fetches. The quote was verified at source in round 1 and is unchanged.
 - The two lstack quotes: they matched once the source's markdown bold was ignored.
