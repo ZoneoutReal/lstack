@@ -21,7 +21,7 @@ Title, hooks, thread version, images, alt text, an X version (launch channel), a
 
 ## Steps
 1. Read the inputs. If the previous file is missing or not done, stop silently.
-2. Fill the template completely. No placeholders left. Write a short take only for clips the lead kept. The human clips and posts after approval; do not post.
+2. Fill the template completely. No placeholders left. Write a short take only for clips the lead kept. The human clips and posts after approval; do not post. If you change the Article body from `04-final.md`, list each change under "Changes since 04-final" in `05-package.md`. Mechanical changes (links, punctuation, dashes) are fine. Any wording change goes back to Editor for a fact-check (this uses the one send-back).
 3. Check against the definition of done below.
 4. Write the file. That is the handoff.
 

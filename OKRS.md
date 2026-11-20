@@ -9,8 +9,10 @@ One objective and two key results per bot. Scored weekly in `pipeline/<week>/06-
 | Researcher | Give the writer only solid ground | 100% of claims sourced | 0 factual errors found in edit |
 | Writer | Draft right the first time, on time | At most 1 send-back | 100% on time |
 | Editor | Hold the bar | Every principle averages 4/5 or better | 0 corrections after publish |
-| Packager | Get the right readers to finish | Hook click-through beats 4-week trailing avg | Read-through beats 4-week trailing avg |
+| Packager | Get the right readers to finish | Impressions per piece beat 4-week trailing avg | Engagements per piece (likes, replies, reposts, quotes, bookmarks, excluding our own teaser) beat 4-week trailing avg |
 | Reviewer | Make the system learn | A look-back every week | At least 1 lesson encoded per month |
+
+A KR with no readable data is scored `n/a (unmeasured)`. It is not a miss and does not count toward the retirement rule. The lead names a data source or rewrites the KR within one week.
 
 ## Retirement rule
 

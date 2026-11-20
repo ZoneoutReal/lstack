@@ -8,7 +8,9 @@ notify_humans_on: [topic_pick, publish_approval, failure]
 routines:
   - step: lead-monday
     role: editor-in-chief
-    cron: "0 12 * * 1"        # Mon 12:00 -> wake intake, then human topic pick
+    cron: "0 12 * * 1"        # Mon 12:00 -> wake intake, then human topic pick.
+                              # Also: if last week's post is live and its 06 files
+                              # are missing, wake reviewer before anything else.
   - step: lead-friday
     role: editor-in-chief
     cron: "0 12 * * 5"        # Fri 12:00 -> human publish approval, chase stuck steps
