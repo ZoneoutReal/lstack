@@ -1,64 +1,80 @@
-# Edit: 2026-W47
+# Edit: 2026-W47 (rewrite)
 
-Piece: "Don't wait for the company rollout: run a capped, four-week opt-in." The earlier W47 piece is shelved in `shelved/2026-W47-boring-checks/`; this file replaces its edit log.
+Piece: "Don't wait for the company rollout: run a capped, four-week opt-in." Jon held the publish for changes; Wade rewrote the draft at 0cfb25c (US encouragement lead, Jon's academic voice, APA 7 author-year citations, reference list). This file replaces the edit log for b146b79. Inputs: `03-outline.md` and `03-draft.md` at 0cfb25c, `02-brief.md` with addenda 1 and 2 (90f95d1, eec8858, 482ec17), `style/jon-academic-voice.md`.
 
 ## Fact-check
+Every quote and number was checked at the original source on Fri Nov 20, 2026.
+
 | Claim | Brief # | Verified |
 |---|---|---|
-| Individual prices and the tax line ("Prices subject to change") | 1 | ✅ x.ai/pricing and docs.x.ai pricing, re-checked Nov 16, 2026: Free $0, Plus $8, Premium $30, Super $100, Ultra $200 a month; prices exclude tax; "Prices subject to change" |
-| Third-party models billed separately | 1 | ✅ but the draft broadened it. Source: "Third Party model usage in Cursor is not included in the monthly prices shown and must be purchased separately." Every vendor page scopes this to Cursor. Now quoted verbatim with a short gloss, so it isn't read as covering all bot usage |
-| Grok Bot on Premium, Super and Ultra, not Plus; bot usage "draws from that seat's shared weekly usage pool, not a separate additive pool"; no official size in hours, tasks or dollars | 2 | ✅ docs.x.ai pricing and usage limits |
-| Team seat prices $30 / $100 / $200; same usage as the matching tier; "three Premium seats and one Super seat"; "Plus isn't available for teams"; "Seats do not share weekly pools"; Enterprise for "invoicing, pooled usage, or advanced security" | 3 | ✅ all on docs.x.ai pricing, docs.x.ai usage limits and x.ai/pricing. cursor.com link dropped from [3] |
-| Team Bots on Team and Enterprise; Meetings on Team, Enterprise and Ultra | 4 | ✅ x.ai Grok Bot 1.0 post (Nov 2) and docs.x.ai teams page |
-| Gloss: Team Bots are shared bots | 4 | ✅ kept, trimmed to the 1.0 post's wording ("everyone on a team can work with the same AI teammate") |
-| Monthly additional usage limit; Additional Usage stops at an empty balance or the cap; "Alerts do not stop usage..."; Auto Top-up "off unless you turn it on"; no Grok Bot-only cap | 5 | ✅ docs.x.ai spending caps and teams FAQ |
-| Gloss: what Additional Usage is | 5 | ✅ corrected. docs.x.ai usage limits: "any third-party model usage in Cursor, plus any first-party usage beyond your included weekly usage." The draft's "paid usage beyond what the seats include" left out the third-party part; now trimmed to match |
-| Per-member limits ("a default monthly limit per member and per-member overrides") | 5 | ⚠️ only on cursor.com. docs.x.ai says self-serve admins set "one monthly additional usage limit for the whole team, either a fixed amount or an amount per seat." Sentence cut, and the cursor.com link dropped from [5] |
-| Joining is prorated; removed members lose access, seat stays until Reduce seats, comes off at period end; canceled seat active to period end; cancel 24 hours before renewal | 6 | ✅ docs.x.ai team plans and cancel pages; x.ai/pricing |
-| Teams plan: Grok Bot on by default, "no switch to turn it off"; Enterprise-only controls; "People can belong to more than one workspace" | 7 | ✅ docs.x.ai teams page and team plans |
-| UK trial 30 Sep to 31 Dec 2024, 20,000 employees; earlier pilots "limited to 300 licences at most"; DBT 1,000 licences, 3 months | 8 | ✅ GOV.UK findings report; DBT evaluation PDF |
-| GOV.UK Service Manual: cost vs improvement; stopping is not a failure; "around 4 to 8 weeks is typical" | 9 | ✅ verbatim |
-| 26 minutes a day, self-reported | 10 | ✅ findings report and press release |
-| DBT: small savings; no evidence of improved productivity; Excel slower and worse | 11 | ✅ verbatim |
-| DBT ~70% volunteers, ~30% random, stratified | 12 | ✅ verbatim |
-| Denmark 41% / 7%; Microsoft and LinkedIn 78% BYOAI (31,000 people, 31 countries); Gallup 40% and "only 22%" | 13 | ✅ NBER w33777 (revised); Work Trend Index; Gallup |
-| NBER take-up 76% / 57% / 69%; 93% and 28%; "consistently associated with..."; framed as associations | 14 | ✅ verbatim |
-| DBT peers and line managers; self-led training; Gallup 68% vs 13% | 15 | ✅. The 13% figure is people who "believed it would" help, not people who said it did. Clarified |
-| Gallup "three times" and "2.6 times" | 16 | ✅ verbatim |
-| PNAS: 16-point gender gap; 12 points within workplace and tasks; "employer restrictions and a perceived need for training" | 17 | ✅ PubMed abstract; 12 points confirmed in the full text (PMC11725873) |
-| NBER "precise null effects on earnings and recorded hours", ruling out more than 2% | 18 | ✅ |
-| AI Playbook principles and the high-risk validation line; Grok Bot rollout checklist (TLS proxy, sign-in, inherited policies) | 19 | ✅ GOV.UK Playbook; docs.x.ai teams page |
-| UK trial limitations quote | counterpoint 5 | ✅ but misquoted. Source: "Limitations were observed when dealing with complex, nuanced, or data-heavy aspects of work." Now quoted from "when dealing" |
-| DBT hallucinations | counterpoint 5 | ✅ in the DBT PDF [11], not the cross-government report [C1]. Citation fixed |
-| lstack structure quotes ("Files are the handoff", human approves every publish, send back once, researcher KR1) | 20 | ✅ AGREEMENTS.md and roles/researcher.md on main. Structure only; no hours, spend or results |
-| No usage multiples (4x / 15x / 50x or 3.5x / 12x) | open question | ✅ absent; the sources still disagree (x.ai/bot shows 3.5x and 12x Premium usage) |
-| No opt-in vs mandate causal claim | corrections | ✅ the draft says no study compares them. One line read as causal ("employer backing changes how many people use them and how it goes") and now reads "goes with more use and better reported results"; "Peers and managers shape uptake" softened to "matter as well" (DBT calls it anecdotal) |
-| Dropped items (unofficial dollar figures, DTA, Annie Duke, earlier NBER figures, "nearly 2 weeks", lstack results) | dropped | ✅ absent |
-| All six counterpoints | counterpoints | ✅ all used, including both required ones (some work stays off the bot; the cap and stop rule must be real) |
-| Tools Jon doesn't use; Jon's surname or address | n/a | ✅ absent. Cursor appears once, inside the vendor's own pricing quote |
-| Overclaiming words in our voice ("impossible", "deterministic"); em dashes | W47 lessons | ✅ none |
+| Bick et al. (2025): 86% vs 13% quote, nationally representative US survey | 13a | ✅ Fed St. Louis WP 2024-027F (Oct 2025 revision), printed p. 16, verbatim |
+| "65 percentage points more likely..."; "caution that the estimated effect... is not necessarily causal" | 13a | ✅ p. 17, verbatim. Caveat kept right after the claim |
+| Pew: "half say their employer neither encourages nor discourages..."; 12% encourage | 13b | ✅ verbatim on the chapter page and on printed p. 23 of the full report PDF. Reference changed (see Wade's check 2) |
+| US lowest share with none of three supports: 44% vs 69% France, 70% Italy | 13c | ✅ BPEA conference draft, printed p. 28, verbatim. Draft's "US workers were the most likely to get support" was our inference; now states the source's measure (lowest share with none) |
+| Gallup 40% and "only 22%..." | 13 (Gallup) | ✅ Gallup, June 15, 2025 |
+| Gallup 52% now use AI in their role | addendum caveat | ✅ Gallup, July 20, 2026 |
+| "three times as likely... 2.6 times as likely..." | 16 | ✅ verbatim |
+| DBT peers and line managers ("anecdotally") | 15 | ✅ DBT PDF p. 5. "shape use" softened to "may matter" since DBT calls it anecdotal |
+| Puthal et al. shadow AI definition (Introduction, para. 1); "sanctioned use" wording flagged as ours | addendum definition | ✅ Springer article, verbatim; DOI, volume 6(5), Article 405 confirmed via Crossref |
+| Prices: Free $0, Plus $8, Premium $30, Super $100, Ultra $200 a month; team seats $30 / $100 / $200; Teams "$30+/user/month"; prices exclude tax; "Prices subject to change" | 1, 3 | ✅ x.ai/pricing and docs.x.ai pricing, re-checked Nov 20, 2026, unchanged from Nov 16. "As of" date in the piece moved to Nov 20 |
+| Grok Bot on Premium, Super, Ultra, not Plus; "draws from that seat's shared weekly usage pool, not a separate additive pool" | 2 | ✅ but miscited. The quote is on docs.x.ai pricing (2026d), not the FAQ. Citation fixed; FAQ no longer cited, so dropped from references |
+| "Seats do not share weekly pools" (self-serve team plans) | 3 | ✅ docs.x.ai usage limits |
+| Team Bots on Team and Enterprise; Meetings on Team, Enterprise, Ultra; "everyone on a team" gloss | 4 | ✅ Introducing Grok Bot 1.0 (dated Nov 11, 2026) |
+| Additional Usage limit quotes; "Alerts do not stop usage..."; Auto Top-up "off unless you turn it on"; no Grok Bot-only cap | 5 | ✅ docs.x.ai spending caps (updated Nov 17) and teams page (updated Nov 17); quotes unchanged. Additional Usage gloss comes from usage limits, so 2026g added to that citation |
+| Prorated join; removed member access, Reduce seats, seats off at period end; canceled seat active to period end; cancel 24 hours before renewal | 6 | ✅ docs.x.ai team plans and cancel; x.ai/pricing |
+| Grok Bot on by default on Teams, "no switch to turn it off"; Enterprise-only Network Controls, Team Secrets, Auto-review rules; "People can belong to more than one workspace" | 7 | ✅ |
+| UK cross-government trial dates and 20,000; earlier pilots "limited to 300 licences at most"; DBT 1,000 licences, 3 months | 8 | ✅ GDS report; DBT PDF p. 4 |
+| Service Manual cost vs improvement; "It's not a failure to stop..."; "around 4 to 8 weeks is typical" | 9 | ✅ verbatim |
+| 26 minutes a day; "Figures are derived from self-reported daily time savings" | 10 | ✅ GDS report; DSIT press release |
+| DBT small savings; no evidence of improved productivity; Excel slower and worse | 11 | ✅ verbatim (pp. 5, 30) |
+| DBT ~70% volunteers, ~30% random, stratified | 12 | ✅ p. 7 |
+| US gender gap: "genAI adoption is 6 percentage points higher for men"; shrinks with occupation and encouragement in Table 1 (−0.070, −0.048, −0.018) | 17-US | ✅ p. 10 and Table 1 on p. 17. Now labeled as current US work use; "regression" replaced with "statistical model" (jargon rule); "Table 1" pinned to p. 17 |
+| Self-led training; Gallup 68% vs 13% "believed it would" | 15 | ✅ verbatim; citation moved to the end of the sentence and to the article author |
+| AI Playbook principles and high-risk validation line; Grok Bot rollout checklist (TLS-inspecting proxy, sign-in, inherited policies) | 19 | ✅ GOV.UK Playbook; docs.x.ai teams page "Before you roll out" |
+| UK trial limitations, "Human oversight was required at all times"; DBT hallucinations | counterpoint 5 | ✅ |
+| lstack quotes and researcher KR1 | 20 | ✅ AGREEMENTS.md and roles/researcher.md on main. Structure only; no hours, spend or results |
+| Danish figures, claim 14, claim 18, Microsoft and LinkedIn 78%, KPMG | dropped | ✅ all absent |
+| Counterpoints | all six | ✅ all used; both required ones (cap and stop rule must be real; some work stays off the bot) visible |
+| Overclaims, em dashes, tools Jon doesn't use, Jon's surname or address | standing rules | ✅ none. Cursor appears only inside the vendor's pricing quote and its gloss |
 
-No invented sources or numbers. Every figure traces to the brief and was checked at the original source on Nov 16, 2026.
+No new sources or numbers. Every figure traces to the brief and addenda.
 
-**Pre-publish:** prices, plan gates and billing wording come from vendor pages that say "Prices subject to change." Re-check x.ai/pricing and docs.x.ai pricing, spending caps and team plans right before publish.
+## Wade's checks
+1. **Vendor, GOV.UK, Gallup and lstack APA entries.** Checked against each live page's byline and metadata.
+   - Vendor author: "SpaceX Super Intelligence" is right. It is the organization author in every docs.x.ai page's metadata and the © line on x.ai. (The 1.0 post's metadata still says "xAI"; the page footer says SpaceX Super Intelligence LLC, so kept one group author.)
+   - n.d.: wrong for the cancel page, which shows "Last updated: October 12, 2026". Now 2026a. Only x.ai/pricing has no date, so it is plain "n.d." (no suffix when there is only one).
+   - 2026a to g: the FAQ entry was dropped (its only cite was a miscite), the cancel page took 2026a, and the rest keep their letters, alphabetical by title. In-text cites now match: n.d. before dated works in "(n.d., 2026a)".
+   - Retrieval dates moved to November 20, 2026, since every vendor quote was re-checked today and two pages (spending caps, teams) were updated Nov 17.
+   - Gallup: both articles have bylines. "Gallup (2025)" is now Pendell, R. (2025, June 15) and "Gallup (2026)" is now Kemp, A. (2026, July 20), with Gallup as the site. The text still says "Gallup found".
+   - GOV.UK: the press release's author is the Department for Science, Innovation and Technology, not "GOV.UK". The AI Playbook is published by the Government Digital Service, not DSIT. So GDS now has 2021, 2025a (Playbook) and 2025b (Copilot findings report), and the DSIT entry is the press release.
+   - DBT title matches the PDF: "The evaluation of the M365 Copilot pilot...".
+   - lstack entries are fine.
+2. **Pew.** The quote and the 12% are on printed p. 23 of the full report PDF. The reference now points to that PDF as a [Report] by Lin and Parker (2025), so "p. 23" resolves. Rhett's overview URL was dropped.
+3. **"Encouraged" vs "sanctioned".** Holds. The data are only ever called encouragement. "Sanctioned" is used only for what we propose and what we ask the exec to do. The caution paragraph says outright that encouragement is not sanction. Also fixed causal drift around encouragement: "depend heavily on" became "track closely", "most effective lever" became "this lever", and "most employers have not said anything" became "many employers have taken no side" (Pew measures what workers say, and half say neither).
+4. **Gender gap.** Now explicitly current US work use, 6 points, with no Danish 16 or 12. "May widen gaps" became "may carry such gaps into a pilot". The US data show a gap that exists, not one that opt-in widens.
+5. **"We found no comparable US public-sector pilot reports".** Cut. No US pilot search is recorded in the brief, so we can't claim it. The sentence now just says the examples are from the UK government, which also meets the flag-non-US rule. "There is no published hours-saved figure" became "We found no published...", scoped the same way.
+6. **Length.** Trimmed: the "even cautious organizations" line (unsourced "cautious"), "A pilot runs better with a few plain rules", the "scattered" premise, a filler clause in the limits paragraph, a duplicate "UK government" clause, and one merged sentence. The body is still about 2,480 words, because the definitions, caveats and APA citations Jon asked for carry real weight. Concise stays at 3; see Scores.
+7. **Outline.** Every brief claim used is mapped (1 to 12, 13 Gallup only, 13a, 13b, 13c, 15, 16, 17-US, 19, 20), and the drops are listed (13 Danish and Microsoft, 14, 17 Danish, 18, KPMG). One small mislabel: section 1 tags the Puthal definition as "#13a". It is the addendum definition, not claim 13a. No effect on the piece.
 
 ## Cuts and clarifications in 04-final.md
-1. Third-party pricing line is now the vendor's verbatim, Cursor-scoped wording, with a short gloss.
-2. Additional Usage gloss now matches docs.x.ai.
-3. Per-member limit sentence cut (cursor.com only, and docs.x.ai describes it differently); cursor.com links dropped from [3] and [5].
-4. Team Bots gloss trimmed to the 1.0 post's wording.
-5. Causal phrasing softened in the "why" section.
-6. UK trial limitations quote made verbatim; hallucinations citation moved to [11]; Gallup 13% clarified.
+1. Reference list corrected: Gallup bylines, DSIT and GDS authorship, Pew report PDF, cancel page dated, FAQ dropped, DBT title, vendor letters re-sequenced, retrieval dates updated.
+2. In-text cites updated to match, plus two miscites fixed: the weekly-pool quote to 2026d, and the Additional Usage gloss to 2026g.
+3. Causal and overreaching wording softened: "depend heavily", "most effective lever", "most employers have not said anything", "shape use", "widen gaps", "US workers were the most likely to get support".
+4. Unscoped search claim cut; "We found no published hours-saved figure" scoped.
+5. Gender gap labeled as current US work use; "regression" replaced with plain words.
+6. Small concision cuts (above). Price "as of" date moved to Nov 20 after re-check.
 
 ## Scores
 | Principle | Score | Note |
 |---|---|---|
-| Useful | 5 | A five-item ask the reader can take to an exec today, with a spend formula, stop steps and an off-limits list |
-| Clear | 4 | Plain structure; billing terms are glossed. A few quoted terms ("extensive-margin take-up") stay dense |
-| Credible | 5 | Every figure matches its source; both sides of the opt-in evidence are shown; the one misquote, one wrong citation and two loose glosses are fixed |
-| Concise | 4 | Long for a one-page plan, but each section carries a decision |
-| Iterative | 5 | W47 lessons applied: verbatim quotes, no multiples, no overclaims, no em dashes; all six counterpoints used |
-| **Average** | **4.6** | |
+| Useful | 5 | A five-item ask an engineering manager can take to an exec today, with a spend formula, stop steps and an off-limits list |
+| Clear | 4 | Terms defined first; plain-word glosses for billing terms. A few technical items stay dense (TLS-inspecting proxies, Additional Usage) |
+| Credible | 5 | After fixes, every quote, number and reference matches its live source. The non-causal caveat, data age and self-report limits sit next to the claims they qualify, and all six counterpoints are named |
+| Concise | 3 | About 2,480 words. Each section carries a decision, but the voice guide's four-to-seven-sentence paragraphs make it long for X. A structural question for the look-back, not something cuts alone fix |
+| Iterative | 5 | All of Jon's hold changes applied (US lead, defined terms, APA, Danish and claim 18 dropped). Earlier W47 lessons held: verbatim quotes, no multiples, no overclaims, no em dashes |
+| **Average** | **4.4** | |
 
 ## Send-backs
-0 of 1 used. Angle is sound: a sanctioned, capped opt-in beats waiting, with no claim that it beats a mandate. Minor clarifications only; see `04-final.md`.
+0 of 1 used on this rewrite. The angle is sound: a sanctioned, encouraged, bounded opt-in may serve a team better than waiting, with no claim that it beats a mandate. The issues were citation metadata and wording, fixed here as cuts and clarifications.
+
+**Pre-publish:** re-check x.ai/pricing and docs.x.ai pricing, spending caps, team plans and the teams page right before publish. Two of them changed on Nov 17.
