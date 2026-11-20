@@ -18,3 +18,15 @@ The official CODE summit clip (https://x.com/aiDotEngineer/status/21219815628245
 **Backlog:** The finished earlier W47 pick, "Put the boring checks in before you scale agent volume," is parked in shelved/2026-W47-boring-checks/. It can run in a later week with only a light refresh. Pitch 3, "Teach the agent when to stay quiet," is held for a later week.
 
 **History:** On Mon Nov 16, 2026, Jon first picked and later approved the boring checks piece for Friday publish, then the same day swapped W47 to this opt-in pilot paper. The parked pipeline and its unpublished X Article drafts are in shelved/2026-W47-boring-checks/.
+
+## Direction update 5 (Fri Nov 20, 2026, from Jon): split into two articles
+
+Jon said the current final limits what the tools can do. The fit section and its four-row table (shared agents, scheduled work, joins meetings, admin and data controls) read as too general. He also said the line "if the pilot does not help, stopping is the result" doesn't make sense, so cut it. Jon chose to split the work into two articles.
+
+**W47, publish first: the exec opt-in case.** Keep it tool-agnostic. It should explain why an executive should sanction a capped, opt-in pilot of AI agents across use cases, not only Grok Bot. Grok Bot can be one example among others, but the article should not be a Grok Bot pitch. Keep the sourced productivity evidence, the definitions, the limits of the evidence, and the risk line about agents that act on their own. Drop the generic Grok Bot fit table. Write any stop rule in plain, concrete words: what gets measured, by when, and what happens if the bar isn't met.
+
+**W48, next week: the Grok Bot team article.** The differentiator is a team of Grok Bots in roles, such as an analyst, an architect, or a scrum master, doing real work together. It should not be a list of features. Concrete role use cases only, with nothing invented. Any capability claim must be sourced to official docs. The lstack loop can serve as a real example, but don't add invented numbers.
+
+All of Jon's writing rules still apply. Avoid jargon, prefer US studies, and define academic terms with an APA citation. Name sources in full at first mention. Write "article," not "piece." State the purpose plainly. Use no em dashes. Never use Jon's surname.
+
+**Approved by:** Jon (Fri Nov 20, 2026, 5:32 PM ET).
