@@ -180,3 +180,88 @@ Gillespie, N., Lockey, S., & KPMG. (2025). *Trust, attitudes and use of artifici
 ### Claim 18 (Danish null effects on earnings and hours): DROP: no verified US figure
 - None of the sources read this session gave a checked US earnings or hours effect of AI use. The Bick, Blandin and Deming working paper has an earnings figure (Figure 4), but its results weren't checked at source. Per Jon's note, there was no new search.
 - Wade: cut the Danish earnings sentence from the "be careful how" section. The UK self-report caveat (claim 10) and DBT's no-productivity-evidence finding (claim 11) still cover "time saved isn't proven value."
+
+## Addendum 3 (Nov 20): Grok Bot vs enterprise AI tools
+
+**Purpose (from Jon via Chet):** add a section that helps a non-technical exec see where Grok Bot fits next to Codex, ChatGPT Enterprise, Microsoft 365 Copilot and Gemini for Google Workspace. It should cover business capabilities and use cases, not only cost, and be framed as fit and differences, never as attacks.
+
+**Method:** only official vendor pages and docs, all opened and read Fri Nov 20, 2026. Bracketed tags such as [G3] point to the APA list below. If a capability wasn't found on an official page, it's marked **UNVERIFIED**. That means "not confirmed," not "doesn't exist." These products change monthly, so re-check before publish.
+
+**Writer floor:** no "better," "best" or "beats." Use "differs" and "fits when." Don't imply which tools Jon or lstack use.
+
+### Correction to the Nov 16 brief (claim 4)
+The Grok Bot meetings doc now says: "Meetings are available on Team, Enterprise, Ultra, and Super plans" [G4]. Claim 4 and the pricing table listed Team, Enterprise and Ultra only. Add **Super** to the Meetings column. Prices themselves are unchanged from Nov 16 [G1][G2].
+
+### Comparison table (capability by tool, each cell sourced)
+| Capability | Grok Bot | Codex (OpenAI) | ChatGPT Enterprise / Business | Microsoft 365 Copilot | Gemini for Google Workspace |
+|---|---|---|---|---|---|
+| **What it is, in one line** | An assistant that works from its own persistent cloud computer with a browser, command line and files [G6] | "OpenAI's coding agent that helps you write, review, and ship code" [O7] | ChatGPT workspace for teams; Business Standard seats "include access to ChatGPT, ChatGPT Work, and Codex" [O1] | AI assistant across Microsoft 365 apps; add-on to a Microsoft 365 plan [M1] | Gemini built into Workspace apps (Gmail, Docs, Meet) [W1] |
+| **Shared or custom agents** | Team Bots: "share a Grok Bot with your team… They can use it in Grok Bot, Slack, Microsoft Teams, or even your calls" [G3] | Not a shared-agent product. Slack users can mention @ChatGPT, which "can send repository work to a separate Codex Cloud task" [O9] | Workspace agents: "share it with teammates or your workspace, use it in Slack, run it on a schedule, or trigger it through an API" [O2]. New custom GPT creation disabled for affected Enterprise workspaces from Oct 26, 2026; "Use Plugin Creator" instead [O3] | "Agent creation using Agent Builder and Copilot Studio"; pre-built "Researcher, Analyst, and Facilitator" agents [M1] | Gems: "customizable versions of Gemini"; "you can share Gems with other users in your organization and beyond" [W2] |
+| **Scheduled or triggered work** | Routines run "on a schedule, or when something happens, such as a Slack message, a GitHub, Linear, Sentry, or PagerDuty event, an email, or a webhook call" [G5] | Scheduled tasks in the ChatGPT desktop app ("Schedule recurring tasks to run in the background") [O10] | Team tasks "run on a schedule or supported trigger, using approved company tools"; webhook triggers for "new Gmail messages, Slack channel messages, and GitHub pull request activity" [O3] | Scheduled prompts "at specified times and frequencies across Microsoft Teams, Office.com chat, and Microsoft Outlook"; "up to 10 active and 50 total schedules per user" [M4] | Gemini schedules: "up to 10 active schedules at a time" [W4]. Workspace Studio flows start from "an event, schedule, or… manually" [W5] |
+| **Connectors and plugins** | "Connect apps" catalog. A Bot "can also add an MCP server that isn't in the catalog"; the team's MCP policy "applies in full" [G6][G7] | Plugins "can include skills and MCP servers"; one directory shared with ChatGPT [O11] | Same plugin directory [O11]; admins "configure app connections for teams" [O3] | Copilot connectors for external data [M1]. Copilot Studio offers prebuilt connectors and "Custom connectors… to connect to any publicly available API" [M6] | Schedules that use another app need it "connected" [W4]. Workspace Studio steps reach "Gmail, Sheets, and Drive, as well as other common apps" [W5]. Breadth of third-party connectors: **UNVERIFIED** |
+| **Computer use or agent mode** | Persistent cloud computer; "files, sign-ins, and browser sessions persist between tasks" [G6] | Codex Cloud "runs coding tasks on OpenAI-managed computers" [O7]. Desktop Computer Use on macOS and Windows [O12] | Dots and Work Cloud: admin toggles for "Cloud browser use," "Cloud network access," "Cloud computer use" [O4] | Copilot Studio computer use "lets your agent interact with and automate tasks on a Windows computer" you set up; "bills usage through the Agent action feature with a billing rate of five Copilot Credits" [M5] | Chrome auto browse: "Gemini works in Chrome browser tabs to complete multi-step tasks"; "off by default for managed users" [W6] |
+| **Joins meetings** | Joins "Google Meet, Zoom, or Microsoft Teams calls… listens, takes notes, answers questions in the meeting chat" [G4] | **UNVERIFIED** (no meeting feature found; it's a coding agent) | Record transcribes meetings ("only available for the macOS desktop app"). With Google Calendar connected, it can "join on schedule," but "Calendar auto-join currently supports Google Meet links only"; Zoom and Teams need a manual start [O5]. Answering in the meeting chat like a participant: **UNVERIFIED** | Facilitator in Teams meetings "Answers open-ended questions in the meeting chat"; "can only be added to scheduled meetings" [M3] | Meet note-taking: "a Google Doc with the notes is emailed to the organizer"; Business Standard and up [W3] |
+| **Admin and data controls (examples)** | SCIM; Enterprise-only items include "Network Controls… Enforce Auto-review"; with Privacy Mode "customer data is not used for training" [G7] | Enterprise: "SCIM, EKM… RBAC… Audit logs… via the Compliance API… Data retention and data residency controls" [O6] | Business: "OpenAI won't train on your workspace's data" [O1]; admin controls for dots and agents [O2][O4] | "Enterprise Data Protection (EDP), management, compliance, and controls" [M2]; scheduled-task data "stored within the Microsoft 365 compliance boundary" [M4] | Work accounts: chats "won't be reviewed by human reviewers or otherwise used to improve generative AI models" [W7] |
+| **Public list price (US)** | Team seats: Premium $30, Super $100, Ultra $200 per seat per month; Enterprise via sales [G2][G1] | Included in ChatGPT plans. Business "$20 / user / month" annual, "$25 per user per month when billed monthly"; Enterprise "Contact sales" [O6] | Business Standard seat $25 monthly or $20 annual; Premium seat $125 monthly or $100 annual [O1]. Enterprise: no public price (contact sales) [O6] | Enterprise add-on "$30.00 user/month, paid yearly", plus "a qualifying Microsoft 365 plan" [M1]. Copilot Business add-on "starting from $18.00" (promo; was $21.00) [M2] | Business Starter $7, Standard $14, Plus $22 per user per month, each listing a "Gemini AI assistant"; Enterprise "Contact sales" [W1]. Billing term for those figures: **UNVERIFIED** (see open questions) |
+
+### "Fits when" use cases (from the documented capabilities above; no performance claims)
+- **Grok Bot fits when** a team wants one shared assistant that works in Slack and Microsoft Teams and joins Meet, Zoom and Teams calls, answering in the meeting chat [G3][G4]. It also fits when the team wants work to run on triggers from tools like GitHub, Linear or PagerDuty [G5], or on its own persistent computer for browser tasks [G6]. That fits a small, mixed-tool pilot team.
+- **Codex fits when** the work is mainly code: repository tasks in the cloud, from Slack, or on the desktop [O7][O9][O12]. It comes with ChatGPT plans rather than as a separate purchase [O6].
+- **ChatGPT Enterprise or Business fits when** a company wants a broad ChatGPT workspace with shared agents, team tasks and the Codex coding agent under one admin console [O1][O2][O3].
+- **Microsoft 365 Copilot fits when** the company already runs on Microsoft 365 and Teams and wants AI inside Outlook, Word and Teams meetings [M1][M3]. It also fits when the company wants agents built in Copilot Studio with Power Platform connectors [M6].
+- **Gemini for Google Workspace fits when** the company runs on Gmail, Docs and Meet and wants AI included in the Workspace subscription [W1], with Meet note-taking [W3] and shared Gems [W2].
+- **Honest framing for the exec:** if the company already pays for Microsoft 365 Copilot or a Workspace edition with Gemini, the first question is what that tool doesn't cover for this team. The pilot then tests the difference, for example cross-platform meetings, event-triggered routines or a persistent bot computer. It isn't a replacement decision.
+
+### Caveats and counterpoints
+- **Overlap is large.** Every tool now has some form of shared agents, schedules, connectors and browser automation. The differences are mostly in *where* the tool lives (Slack, Teams or Workspace), *which* meetings it joins, and *how* it's bought and governed. Don't present any single feature as unique without a source.
+- **Bundling matters to a cost-minded exec.** Gemini is included in Workspace plans [W1], and Codex is included in ChatGPT plans [O6]. Microsoft 365 Copilot is an add-on to an existing plan [M1]. A Grok Bot pilot is a separate line item [G2].
+- **Feature churn.** Custom GPTs are being retired for affected Enterprise workspaces ("Dec 11, 2026 for standard retirement") [O3], and Microsoft's Power Platform scheduled prompts retire Dec 31, 2026 [M4]. Re-check before publish.
+- **Metered extras.** Microsoft lists Cowork, Autopilot and agent usage as metered or usage-based [M1][M2]. OpenAI and Grok Bot both sell usage beyond included limits [O1][G2]. List price isn't total cost.
+- **Defaults.** Several capabilities are off by default and need an admin: ChatGPT Enterprise workspace agents [O2], Gemini auto browse [W6], and some Grok Bot controls that are Enterprise only [G7]. A pilot needs admin time on any of them.
+
+### UNVERIFIED (not confirmed on an official page this pass)
+1. Codex: any meeting participation.
+2. ChatGPT Enterprise: whether Record acts as a meeting participant (answers in the meeting chat). Confirmed: macOS Record, plus calendar auto-join for Google Meet links only. The same page says the newer Meetings plugin has "Windows and ChatGPT Enterprise support coming soon," while listing Record as available for Enterprise. Treat Enterprise meeting features as in flux.
+3. Gemini for Workspace: breadth of third-party, non-Google connectors.
+4. Google Workspace: whether $7, $14 and $22 are annual or flexible (monthly) prices. The page shows a promo and an annual toggle, and the static text didn't say which plan the figures belong to.
+5. ChatGPT Enterprise and Gemini Enterprise list prices (sales-led; none published).
+6. Microsoft Facilitator in non-Teams meetings (docs describe Teams meetings only).
+
+### APA 7 references (all accessed November 20, 2026)
+- [G1] xAI. (n.d.). *Pricing*. Retrieved November 20, 2026, from https://x.ai/pricing
+- [G2] xAI. (n.d.). *Pricing* [The X Subscription documentation]. Retrieved November 20, 2026, from https://docs.x.ai/x-subscription/pricing
+- [G3] xAI. (n.d.). *Team Bots* [Grok Bot documentation]. Retrieved November 20, 2026, from https://docs.x.ai/grok-bot/team-bots
+- [G4] xAI. (n.d.). *Add a Bot to your meetings* [Grok Bot documentation]. Retrieved November 20, 2026, from https://docs.x.ai/grok-bot/meetings
+- [G5] xAI. (n.d.). *Skills and routines* [Grok Bot documentation]. Retrieved November 20, 2026, from https://docs.x.ai/grok-bot/skills-routines-and-automations
+- [G6] xAI. (n.d.). *Use the computer and apps* [Grok Bot documentation]. Retrieved November 20, 2026, from https://docs.x.ai/grok-bot/computer-and-apps
+- [G7] xAI. (n.d.). *Grok Bot for teams and enterprises* [Grok Bot documentation]. Retrieved November 20, 2026, from https://docs.x.ai/grok-bot/teams-and-enterprises
+- [O1] OpenAI. (n.d.). *ChatGPT Business overview*. OpenAI Help Center. Retrieved November 20, 2026, from https://help.openai.com/en/articles/8792828-chatgpt-business-overview
+- [O2] OpenAI. (n.d.). *ChatGPT workspace agents for Enterprise and Business*. OpenAI Help Center. Retrieved November 20, 2026, from https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business
+- [O3] OpenAI. (n.d.). *ChatGPT Enterprise and Edu release notes*. OpenAI Help Center. Retrieved November 20, 2026, from https://help.openai.com/en/articles/10128477-chatgpt-enterprise-and-edu-release-notes
+- [O4] OpenAI. (n.d.). *Managing dots in ChatGPT workspaces*. OpenAI Help Center. Retrieved November 20, 2026, from https://help.openai.com/en/articles/20001554-managing-dots-in-chatgpt-workspaces
+- [O5] OpenAI. (n.d.). *ChatGPT Record*. OpenAI Help Center. Retrieved November 20, 2026, from https://help.openai.com/en/articles/11487532-chatgpt-record
+- [O6] OpenAI. (n.d.). *Pricing* [Codex documentation]. Retrieved November 20, 2026, from https://developers.openai.com/codex/pricing
+- [O7] OpenAI. (n.d.). *Using Codex with your ChatGPT plan*. OpenAI Help Center. Retrieved November 20, 2026, from https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan
+- [O9] OpenAI. (n.d.). *Use ChatGPT in Slack* [Codex documentation]. Retrieved November 20, 2026, from https://developers.openai.com/codex/third-party/slack
+- [O10] OpenAI. (n.d.). *Scheduled tasks* [Codex documentation]. Retrieved November 20, 2026, from https://developers.openai.com/codex/automations
+- [O11] OpenAI. (n.d.). *Plugins* [Codex documentation]. Retrieved November 20, 2026, from https://developers.openai.com/codex/plugins
+- [O12] OpenAI. (n.d.). *Computer Use* [Codex documentation]. Retrieved November 20, 2026, from https://developers.openai.com/codex/computer-use
+- [M1] Microsoft. (n.d.). *Microsoft Copilot plans and pricing: Enterprise*. Retrieved November 20, 2026, from https://www.microsoft.com/en-us/copilot/pricing/enterprise
+- [M2] Microsoft. (n.d.). *Microsoft Copilot plans and pricing: AI for business*. Retrieved November 20, 2026, from https://www.microsoft.com/en-us/copilot/pricing/business
+- [M3] Microsoft. (n.d.). *Facilitator in Microsoft Teams meetings*. Microsoft Support. Retrieved November 20, 2026, from https://support.microsoft.com/en-us/teams/copilot/facilitator-in-microsoft-teams-meetings
+- [M4] Microsoft. (n.d.). *Manage scheduled prompts for Microsoft Copilot*. Microsoft Learn. Retrieved November 20, 2026, from https://learn.microsoft.com/en-us/copilot/manage/scheduled-prompts
+- [M5] Microsoft. (n.d.). *Automate web and desktop apps with computer use*. Microsoft Learn. Retrieved November 20, 2026, from https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use
+- [M6] Microsoft. (n.d.). *Use connectors in Copilot Studio agents*. Microsoft Learn. Retrieved November 20, 2026, from https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-connectors
+- [W1] Google. (n.d.). *Compare flexible pricing plan options*. Google Workspace. Retrieved November 20, 2026, from https://workspace.google.com/pricing
+- [W2] Google Workspace. (2025, September 18). *Introducing Gems sharing in the Gemini app, including admin controls*. Google Workspace Updates. https://workspaceupdates.googleblog.com/2025/09/gem-sharing-gemini-app-workspace.html
+- [W3] Google. (n.d.). *Let Google Meet AI take notes for my users*. Google Workspace Help. Retrieved November 20, 2026, from https://knowledge.workspace.google.com/admin/meet/let-google-meet-ai-take-notes-for-my-users
+- [W4] Google. (n.d.). *Schedules in Gemini Apps*. Gemini Apps Help. Retrieved November 20, 2026, from https://support.google.com/gemini/answer/16316416?hl=en
+- [W5] Google. (n.d.). *Get started with Google Workspace Studio*. Workspace Studio Help. Retrieved November 20, 2026, from https://support.google.com/workspace-studio/answer/16444479?hl=en
+- [W6] Google. (n.d.). *Gemini in Chrome*. Chrome Enterprise and Education Help. Retrieved November 20, 2026, from https://support.google.com/chrome/a/answer/16291696?hl=en
+- [W7] Google. (n.d.). *Use Gemini Apps with a work or school Google Account*. Gemini Apps Help. Retrieved November 20, 2026, from https://support.google.com/gemini/answer/14620100?hl=en&co=DASHER._Family%3DBusiness-Enterprise
+
+### Open questions
+- Does Jon want Codex as its own column? OpenAI now sells Codex inside ChatGPT plans [O1][O6], so for an exec the real choice may be "ChatGPT Business/Enterprise (with Codex)." Merging the two columns would shorten the table.
+- Should the piece show Microsoft's $18 Copilot Business promo price, or only the $30 enterprise add-on? The promo may expire before publish.
+- Google Workspace billing term for $7/$14/$22 (UNVERIFIED #4): check the live page's Annual/Flexible toggle before quoting.
+- The table is too wide for a one-page exec handout. Wade may want to cut it to four rows (shared agents, scheduled work, meetings, price) and move the rest to an appendix.
