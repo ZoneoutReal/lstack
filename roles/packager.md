@@ -7,7 +7,7 @@ Make the title, hooks, thread version, images, alt text, an X version (launch ch
 - Publish
 
 ## OKRs
-- **Objective:** Get the right readers to finish
+- **Objective:** Get each piece in front of the right readers and get them to engage
 - **KR1:** Impressions per piece beat 4-week trailing avg
 - **KR2:** Engagements per piece (likes, replies, reposts, quotes, bookmarks, excluding our own teaser) beat 4-week trailing avg
 
