@@ -1,97 +1,72 @@
-# Edit: 2026-W47 (Addendum 4 pass: productivity case replaces cost)
+# Edit: 2026-W47 (expert fact-check pass)
 
-Input: Wade's ea16a3d (`03-draft.md`, `03-outline.md`), built on 61c456e. The governing source for this section is Rhett's Addendum 4 (0f371c6), which I read in full. The governing files (roles/editor.md, the 04 SKILL.md, PRINCIPLES.md, AGREEMENTS.md, style/jon-academic-voice.md) are unchanged since 61c456e and were re-read. The angle holds, so no send-back.
+Input: Wade's fd3a0e5 (`03-draft.md`, `03-outline.md`), built on my 430f920 final.
+
+The governing files (roles/editor.md, the 04 SKILL.md, PRINCIPLES.md, AGREEMENTS.md, style/jon-academic-voice.md) are unchanged since 430f920. I re-read them. The angle holds, so no send-back (0 of 1 used).
 
 ## Word count
-Counted as X counts it: the whole file, excluding table rows and URLs, references included.
-- Wade's draft: 2,557 (I get the same).
-- `04-final.md`: **2,498**, unchanged by the final email-window correction (9 words added, 9 cut).
+Counted as X counts it: the whole file, references included, leaving out table rows and URLs.
+- Wade's draft: 2,497 (I get the same).
+- `04-final.md`: **2,490**, or 1,755 for the body without references.
 
-All length changes are cuts, except one sourced definition (workslop, see below), which is paid for by further cuts.
+## Chet's 14 fixes
+The repo has no list of the 14 fixes. `03-outline.md` only says "the 14 fixes Chet relayed from Jon", and the commits since 430f920 add nothing more. **I can't confirm each of the 14 landed. Needs Chet: commit the list (for example as an addendum in `02-brief.md`) so the edit can be audited against it.**
 
-## Cuts (least sourced value first)
-| Cut | Words | Why this one |
-|---|---|---|
-| Note 1 list prices (Grok Bot $30/$100/$200; Copilot "$30 per user a month, paid yearly") and the x.ai/pricing reference (now uncited) | ~30 | Addendum 4 says to footnote plan inclusion only, and not to mix public and private prices (check 5) |
-| Shadow AI tail "; without a clear signal, use is left to chance" | 10 | Unsourced aside. The sourced guard before it ("We therefore do not call the 13% shadow AI users") stays |
-| ", so both are worth a try" | 7 | Unsourced nudge toward the untested ideas |
-| "A pilot can borrow that shape." | 6 | The lstack quotes already show the shape |
-| "A cautious exec will raise five limits." | 7 | Signpost; the heading already says it |
-| "Each result is labeled by where it was run and who ran it." | 13 | The italic labels explain themselves (see check 4) |
-| ", plus the two untested ideas" (Takeaway ask 2) | 5 | Repeats the test section |
-| "(NBER)", "rev. ed." | 3 | The abbreviation is never used again, and "rev. ed." isn't an APA working-paper element |
+What I could check: every change in the 430f920 to fd3a0e5 diff, verified below against live sources.
 
-**lstack section kept:** cutting it would save the most words, but it is a brief requirement (claim 20, "how it runs") and it is sourced. The cuts above are all unsourced asides or repeats.
+## Fact-check log (live, Fri Nov 20, 2026, about 3:58 to 4:20 PM ET)
+Method: a script compared every quoted fragment and ellipsis in `04-final.md` with the live page or PDF text. **All 36 fragments are word for word.** Page cites were checked against the printed page numbers.
 
-## Fact-check (live, Fri Nov 20, 2026, from 2:40 PM ET)
-- **Quote fragments.** A script diffed every quoted fragment, split at each ellipsis, against live page and PDF text.
-  - All 37 fragments in `04-final.md` are verbatim, including the new definition.
-  - "There was no control group" is the start of "There was no control group to adjust for temporal trends" (Olson et al., limitations). The meaning is kept.
-  - "an almost 25% decline in customer requests to speak to a manager" is on printed p. 26 of the November 2023 working paper.
-- **Page cites, against printed page numbers:**
-  - Bick et al.: pp. 2, 10, 16, 17
-  - Dillon et al.: p. 7
-  - Brynjolfsson et al.: p. 26
-  - Noy and Zhang: p. 187
-  - BetterUp: p. 1
-- **Population and setting scoping:**
-  - "doctors' visit notes" is now "clinicians' visit notes". Olson et al. studied "physicians and advanced practice practitioners".
-  - "two authors tied to the vendor" is now "authors tied to the vendor". The disclosures show two Abridge employees plus a third author on an Abridge advisory committee, and Abridge facilitated data collection.
-- **Overclaims fixed:**
-  - "No independent study of Grok Bot exists" is now "We found no independent study of Grok Bot". Absence can't be proven.
-  - "Most savings are self-reported" is now "Many". The email, drafting and support studies measured time or output directly, so "most" overstates.
-  - "Notes are about strain, not time" is now "not meeting time". Olson et al. did find less after-hours documenting time. The point is that the email trial found no change in meeting time.
-- **Term defined:** workslop is now defined before use with BetterUp's own words, as Jon's rule requires: "AI-generated work content that masquerades as good work, but lacks the substance to meaningfully advance a given task". The page is labeled vendor research, and no new source was added.
-- **Email time window added (final correction):** the Dillon et al. quote now starts at the source's own clause, "In the second half of the 6-month experiment, the 80% of treated workers who used this tool spent two fewer hours on email each week..." (abstract; re-verified verbatim against the live NBER PDF). Offset by cutting "published by the National Bureau of Economic Research," (the reference entry names the publisher, and the label already says "not peer-reviewed"). X count unchanged at 2,498.
+| Item | Result |
+|---|---|
+| **Dillon et al. (in press), *AER: Insights*** | ✅ The aeaweb.org article page lists it as "American Economic Review: Insights (Forthcoming)". doi.org returns 404 for 10.1257/aeri.20250275, so pointing the reference at the aeaweb page is right. The accepted manuscript (aeaweb.org/content/file?id=24562) abstract reads "...the 80% of treated workers who used the tool spent two fewer hours on email each week...". "the tool" is correct for this version. |
+| Dillon scope | ✅ Still limited to users only and to "In the second half of the 6-month experiment". |
+| Dillon meetings quote, p. 8 | ✅ Printed page 8 of the accepted manuscript. |
+| Dillon "mostly US or Europe" | **Fix: cut.** The phrase isn't in the accepted manuscript, which says only that firms are large and "most operate in multiple countries". It comes from the NBER version (p. 19). Re-adding that reference would cost about 20 words for a label, so I cut it. |
+| Dillon "mostly Microsoft Research authors" | ✅ Three of the four authors are at Microsoft Research, per the manuscript's author note. |
+| **Brynjolfsson et al. (2025), QJE** | ✅ Crossref and the OUP article page: vol. 140, issue 2, pp. 889–942, doi 10.1093/qje/qjae044. Authors are listed as "Lindsey Raymond", so the reference's "Raymond, L." is right. |
+| "almost 25%" page | **Fix: p. 934 → p. 933.** In the open-access QJE PDF, the whole sentence ("Relative to a baseline rate of approximately 6%, these coefficients suggest that AI assistance generates an almost 25% decline in customer requests to speak to a manager") sits on p. 933. Page 934 starts after it. |
+| "about 6% of chats" | ✅ The outcome is "the share of an agent's chats in which a customer requests to speak to a manager". |
+| "Gains are uneven" quote | ✅ Word for word from the QJE abstract, p. 889: "the most experienced and highest-skilled workers see small gains in speed and small declines in quality". |
+| Brynjolfsson scope labels | ✅ "one US software firm": a Fortune 500 firm that sells software to US small businesses. "mainly in the Philippines": "The majority of agents in our sample work from offices in the Philippines, with smaller groups working in the United States and other countries." |
+| **Pew, "fielded in late 2024"** | ✅ The report PDF says "The survey, conducted Oct. 7-13 among 5,273 employed U.S. workers". The reference year 2025 is the publication date and stays. |
+| **GOV.UK, "the discovery phase of a new service"** | ✅ The page opens "Before you commit to building a service, you need to understand the problem". The quote "around 4 to 8 weeks is typical" is unchanged and word for word. |
+| "a person prompts or reviews" | ✅ This fits all four studies: Copilot and ChatGPT are prompted, the support assistant suggests replies, and in Olson et al. clinicians review the scribe's note. Wording holds. |
+| "we suggest starting it read-only" | ✅ The draft frames it as our advice, not a Grok Bot setting. For the record only (not cited, to save words): the live teams doc says "Start new roles with read-only tasks and draft outputs". |
+| **"maker of Grok"** | **Fix: cut "(maker of Grok)".** No cited page says it, and the sentence's citation (SpaceX Super Intelligence, 2026c) would imply one does. The Nov 11, 2026 launch date is on that post. |
+| "strongest predictor in one large US survey" | ✅ In Bick et al.'s Table 1, "Employer Encourages AI Use" has the largest coefficient (0.652) of any predictor, and the text calls encouragement "highly predictive of adoption". The not-causal caveat stays. |
+| "a raw gap before other factors are accounted for" (6 points) | ✅ The 6 points comes from the descriptive figure ("The top panel shows..."). Table 1 shows the Female coefficient shrinking once controls are added. |
+| Workslop definition | **Fix: "AI work content" → "AI-generated work content"**, the source's word (0 words added). The quoted fragment "masquerades as good work" is word for word. |
+| Olson et al. label "volunteers, before-and-after survey" | ✅ The study says "participation was voluntary" and used "preintervention and 30-day postintervention surveys". |
+| Grok Bot "Enterprise SCIM" cell | ✅ The teams doc puts SCIM under "Available on the Enterprise plan". |
+| Other vendor facts, live | ✅ All still hold. Checked: Grok Bot meetings (Meet, Zoom and Teams), plan gates, Team Bots and caps; Workspace Meet notes "emailed to the organizer" with the Business Standard and up qualifier (the cell keeps it); Gemini "up to 10 active schedules"; Studio triggers; Gems sharing; Copilot "(add-on)", Agent Builder and Copilot Studio, Enterprise Data Protection, scheduled prompts in Outlook and Teams, Facilitator "can only be added to scheduled meetings"; OpenAI Record ("Calendar auto-join currently supports Google Meet links only"), Codex Enterprise "Contact sales" and SCIM. No prices anywhere. |
 
-## Wade's checks
-1. **References and letters.**
-   - A script confirmed every in-text cite has an entry and every entry is cited, after the x.ai/pricing entry was removed.
-   - Order: alphabetical by author. Within the same author, n.d. comes first, then year. Same-year letters follow title order, which matches the convention used in every W47 round.
-   - Each n.d. or dated choice follows the page's own visible date. Examples: OpenAI Help Center "Updated" (2026); Microsoft Learn ms.date 2026-11-03; Google Meet admin help "Last updated 2026-11-10"; Grok Bot docs "Last updated" Oct 11 to Nov 17.
-   - The outline's cell map matches the table and the source note, cell by cell.
-2. **Brynjolfsson et al. (2023).** Correct. The quotes come from NBER Working Paper 31161, "April 2023, revised November 2023". Authors on the title page: Erik Brynjolfsson, Danielle Li, Lindsey R. Raymond. The 25% figure is on p. 26 and "minimal impact" is in the abstract. Citing the working paper, the version actually quoted, is the right APA practice. The 2025 *Quarterly Journal of Economics* version stays uncited, because its pages and wording may differ.
-3. **Fragments.** All verbatim (see above). This is the second round running with zero fragment errors.
-4. **Italic labels.** They read as caveats, not clutter. Each sits at the end of its bullet and starts with "Label:". I cut the sentence that explained them, since they're self-explanatory.
-5. **Price note: followed Addendum 4.**
-   - Note 1 now says only which plans include each tool: Grok Bot on Premium, Super and Ultra; Copilot an add-on to a Microsoft 365 plan; Gemini included in Workspace plans; ChatGPT Enterprise sold through sales.
-   - Why: Addendum 4 is newer than Chet's $30 call, and Jon dropped the cost argument. A public $30 Copilot price next to "sold through sales" for others mixes public and private prices, which Addendum 4 warns against. No dollar figure is left to go stale or to imply a cost comparison the piece no longer makes. Nothing is misleading by omission, because the piece doesn't argue cost.
-   - Also fixed: "Gemini Enterprise" was attributed to the Workspace pricing page, which lists Workspace "Enterprise ... Contact sales", not Gemini Enterprise. I cut "and Gemini Enterprise".
-6. **Dashes.** The style guide and the 04 SKILL.md forbid only the em dash (U+2014). Page ranges therefore use APA's en dash: Noy and Zhang 187–192, Lee et al. pp. 1–22. There are 0 em dashes.
-7. **Vendor facts, live:**
+## Dashes in page ranges: en dash, kept
+APA 7 uses an en dash for number ranges (187–192). The house rules ban only the em dash: the SKILL.md check searches for the em dash character (U+2014), and the style guide says "the no-em-dash rule". Wade's switch back to hyphens didn't cite a rule, so I kept the en dashes from 4eead5b onward: 889–942, 1–22, 187–192. There are 0 em dashes.
 
-   | Vendor | What I checked |
-   |---|---|
-   | Grok Bot | Team Bots, routines, meetings, teams, caps and pricing docs. "is included on Premium, Super, and Ultra"; "Meetings are available on Team, Enterprise, Ultra, and Super plans"; "Alerts do not stop usage"; "every member has access without any admin action"; "With Privacy Mode enabled, customer data is not used for training" |
-   | OpenAI | Business overview ("ChatGPT, ChatGPT Work, and Codex"; "OpenAI won't train on your workspace's data"); release notes (Enterprise team tasks, SCIM, audit logs); Record (macOS, "Calendar auto-join currently supports Google Meet links only"); workspace agents (sharing, Slack, schedules); Codex pricing (Enterprise "Contact sales") |
-   | Microsoft | Agent Builder and Copilot Studio; Copilot "(add-on)"; Enterprise Data Protection; scheduled prompts in Teams and Outlook; Facilitator "can only be added to scheduled meetings" |
-   | Google | Gems shareable outside the organization per Drive settings; "up to 10 active schedules at a time"; Studio event, schedule or manual triggers; Meet notes "emailed to the organizer", editions Business Standard and up; work chats not used to train |
+## References
+- Every in-text cite has an entry and every entry is cited.
+- "Dillon et al. (in press)" sorts under D with its in-press label, and the reference has no year.
+- Vendor letters and the outline's cell map are unchanged and still match the table and source note.
 
-   Two pricing changes don't affect the piece: Google now shows a 50%-off-for-3-months offer, and the Copilot Business $18 promo is still live. Neither appears in the piece any more.
-   - **Table cell fixed:** Gemini Meet notes lost "(Business Standard and up)" again in this draft. I restored it. Cells aren't counted.
-
-## Productivity claims and overclaiming
-- Each figure is tied to its population and setting:
-  - Email: randomized, 66 firms, users only, second half of the 6-month experiment.
-  - Support: one firm, mostly Philippines-based agents.
-  - Drafting: test tasks.
-  - Notes: clinicians, no control group.
-  - All US workers: self-reported.
-- No causal claim beyond the sources. Encouragement keeps "not necessarily causal", and the Takeaway says "suggests real but uneven help ... none of it about Grok Bot".
+## Scope of each figure
+- Email: randomized, 66 firms, users only, second half of six months, peer-reviewed and forthcoming.
+- Support: one firm, mainly Philippines-based agents, from a baseline of about 6% of chats.
+- Drafting: test tasks.
+- Notes: clinicians, volunteers, before-and-after survey, no control group.
+- US savings: self-reported.
+- Self-reported savings, DBT and Denmark: labeled not US.
 
 ## Scores
 | Principle | Score | Note |
 |---|---|---|
-| Useful | 5 | Five asks, tasks to time, and a stop rule an exec can sanction today |
-| Clear | 4 | Plain words, every term now defined. Eight italic labels are dense but needed |
-| Credible | 5 | Every quote verbatim, each figure scoped, five counterpoints named, vendor ties disclosed, no stale prices |
-| Concise | 4 | 2,498 words as X counts them. All cuts are unsourced asides or repeats |
-| Iterative | 5 | Addendum 4 applied. Fragment diffs carried forward (zero errors again). The Meet notes qualifier regressed and was caught |
+| Useful | 5 | Five asks, timed tasks, a stop rule and read-only advice an exec can act on today |
+| Clear | 4 | Plain words and every term defined. The italic labels are dense but needed |
+| Credible | 5 | Every fragment word for word against the published or accepted versions. Two page and source fixes made. Every figure scoped |
+| Concise | 4 | 2,490 words as X counts them. Wade's cuts held, and mine only removed words |
+| Iterative | 5 | Moved to the published versions. The fragment check found zero errors again. The Meet notes qualifier held this round |
 | **Average** | **4.6** | |
 
-## Send-backs
-0 of 1 used.
-
-## For Wade, next draft
-- `03-outline.md` still says Note 1 keeps "Copilot at its standard $30 add-on [M1]". `04-final.md` drops it per Addendum 4.
-- Pre-publish: re-check the Grok Bot docs (meetings, teams, caps, pricing), Workspace Meet notes editions, and OpenAI Record's auto-join scope.
+## For Chet / Wade
+- **Chet:** please commit the list of 14 fixes so this pass can be checked against it.
+- **Wade:** the outline still says "almost 25%" is on p. 934 (it is p. 933). It also still lists "(maker of Grok)" and "mostly US or Europe" for Dillon.
