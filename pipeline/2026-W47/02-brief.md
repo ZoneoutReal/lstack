@@ -162,3 +162,21 @@ Gillespie, N., Lockey, S., & KPMG. (2025). *Trust, attitudes and use of artifici
 - Is there a newer US split of use by employer encouragement than the 2024 RPS waves? The public FRED series (RPSGENAIUSAGESHAREWORK) gives overall work use through 2026 Q3 but not by encouragement.
 - Should claims 17 (Danish gender gap) and 18 (Danish null earnings effects) also get US replacements, or stay as clearly labeled international evidence? No US study with the same design was searched for in this pass.
 - Does Jon want "sanctioned" defined as *endorsed and supervised by the organization*, the Puthal et al. framing, which centers IT and security, or more broadly as *allowed by the employer*? The two differ, and the US data measure *encouragement*, which is neither.
+
+## Addendum 2 (Nov 20): hook decision and claims 17 and 18
+
+### Decision note for Wade (approved by Chet)
+- **The hook moves to the encouragement gap.** Lead with Bick, Blandin and Deming (claim 13a): "86% of respondents whose employer encourages genAI use report adopting it, compared to just 13% among those whose employer does not" (Working Paper 2024-027F, p. 16). Support it with Pew (claim 13b): "half say their employer neither encourages nor discourages the use of AI chatbots at work" (report p. 23).
+- Retire the Danish 41%/7% hook. Don't set 13% against 41% as a country comparison (see the comparison table above).
+- Keep the authors' caveat close by: the encouragement effect "is not necessarily causal."
+
+### Claim 17 (Danish gender gap): REPLACED with a US figure
+- **17-US.** Bick, Blandin and Deming (nationally representative US survey; August and November 2024 waves; employed ages 18 to 64): "Figure 3 documents demographic heterogeneity in work adoption of genAI. The top panel shows genAI adoption is 6 percentage points higher for men" (p. 10; Figure 3 on p. 11, N = 6,935).
+- Table 1 (p. 17, N = 6,883) gives the same pattern as regression coefficients on "Female": −0.070 with demographic controls only; −0.048 after adding occupation controls; −0.018 after also adding "Employer Encourages AI Use." These are unweighted regression coefficients, so treat them as supporting detail, not a headline. They suggest the gap mostly tracks occupation and encouragement, and that fits the piece's argument for a deliberate, encouraged pilot over pure self-selection.
+- **Caveat:** this isn't the Danish measure. Denmark found 16 points for ever using ChatGPT for work in exposed occupations, and 12 points within the same workplace. The US figure is a 6-point gap in current work use across all workers. Say "6 percentage points" for the US; don't carry over 16 or 12.
+- **Link:** https://doi.org/10.20955/wp.2024.027
+- **APA:** Bick, A., Blandin, A., & Deming, D. J. (2025). *The rapid adoption of generative AI* (Working Paper No. 2024-027F). Federal Reserve Bank of St. Louis. https://doi.org/10.20955/wp.2024.027
+
+### Claim 18 (Danish null effects on earnings and hours): DROP: no verified US figure
+- None of the sources read this session gave a checked US earnings or hours effect of AI use. The Bick, Blandin and Deming working paper has an earnings figure (Figure 4), but its results weren't checked at source. Per Jon's note, there was no new search.
+- Wade: cut the Danish earnings sentence from the "be careful how" section. The UK self-report caveat (claim 10) and DBT's no-productivity-evidence finding (claim 11) still cover "time saved isn't proven value."
