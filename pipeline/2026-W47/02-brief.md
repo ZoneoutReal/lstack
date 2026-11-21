@@ -465,3 +465,113 @@ U.S. Government Accountability Office. (2025). *Science & tech spotlight: AI age
 Dillon, E. W., Jaffe, S., Immorlica, N., & Stanton, C. T. (in press). Shifting work patterns with generative AI. *American Economic Review: Insights*. https://www.aeaweb.org/articles?id=10.1257/aeri.20250275
 
 **Link check:** the Federal Register page, the govinfo PDF (https://www.govinfo.gov/content/pkg/FR-2026-01-08/pdf/2026-00206.pdf) and both AEA links return 200. The GAO site returns 403 to command-line requests but opens through a web fetch (PDF: https://www.gao.gov/assets/gao-25-108519.pdf), so it works for readers.
+
+## Addendum 7 (Nov 21): AI-source recency (Direction update 6)
+
+**Numbering:** Chet's note called this "Addendum 6," but Addendum 6 (definition of AI agents, commit 5d58c1a) already exists, and the topic file sets no number, so this one is Addendum 7.
+
+**Rule (Jon, Direction update 6 in 01-topic.md, commit 0dbcb47):** every AI-specific claim must cite a source whose data is from the last six months, so after May 20, 2026. Where a source falls inside the window but some of its data is older, say which years the data covers. Definitions and non-AI points are exempt, so Puthal et al. (2025), the Center for AI Standards and Innovation (CAISI, 2026), the U.S. Government Accountability Office (GAO, 2025) and GOV.UK's discovery-phase guide (Government Digital Service [GDS], 2021) all stay.
+
+**Method:** I fetched every new figure at its URL on Sat Nov 21, 2026, and quote it word for word below. FRED and the Gallup pages were read as web pages; NBER and arXiv as their PDFs. All quotes in Direction update 6 matched. Nothing had to be cut as unverifiable.
+
+### Swaps (all verified)
+| Section of the article | Out | In (verbatim, with location) | Label and data dates |
+|---|---|---|---|
+| Opening, and "Encouragement goes with use" | Bick et al. (86% vs 13%; 65 points; "not necessarily causal"); Lin and Parker, Pew Research Center ("half say…") | **Gallup, Indicator: Artificial Intelligence**, https://www.gallup.com/699797/indicator-artificial-intelligence.aspx. Section "Do Managers Support Employee Use of AI?": "As of May 2026, nearly four in 10 employees (36%) in AI-integrating organizations strongly agree that their manager supports their team's use of AI." Employees in AI-adopting organizations who strongly agree that their manager actively supports their team's use of AI are "1.7x as likely to use AI a few times a week or more." Section "Do Most Companies Have a Clear AI Strategy?": "As of August 2026, 26% of U.S. employees say their organization has communicated a clear plan for integrating AI into current practices." | US surveys. Data as of May 2026 (manager support) and August 2026 (clear plan). **The 26% measures a clear plan, not encouragement**, so reword: "Only about a quarter of US employees say their organization has communicated a clear AI plan." The "not necessarily causal" caveat now has to be our own words, because Gallup is also a survey: *"This is a survey link, not proof that manager support causes use (our wording)."* |
+| "Real pilots already cover several uses" (task mix) | UK trial "20,000 government employees"; DBT "One thousand licences" | **Kemp (2026), Gallup, "Organizational AI Adoption Jumps Six Points," July 20, 2026**, https://www.gallup.com/workplace/712736/organizational-adoption-jumps-six-points.aspx: "Among AI users, the most common uses of AI are writing and editing (51%), search or research (49%), and general assistance or problem-solving (39%)." | US. Survey dates table on the page: "Q2 2026 May 6-20, 2026," sample "22,573." **Note:** the fieldwork ends on the May 20 cutoff itself. |
+| "Results differ by use" (average time saved) | Bick et al., "1.4% time savings" | **FRED Blog, Federal Reserve Bank of St. Louis, "Does generative AI save time at work?" (August 27, 2026)**, https://fred.stlouisfed.org/blog/2026/08/does-generative-ai-save-time-at-work/: "the share of work hours saved thanks to AI assistance grew from 1.6% to 2.2%." The same paragraph gives the span: work use grew "from 28.2% in Q3 2024 to 39.2% by Q2 2026," and hours saved grew "over roughly the same stretch." The post also says: "The information is based on how respondents self-report their 'time saved,' so the measurements are inherently approximate." | US, nationally representative (Real-Time Population Survey). **Self-reported.** Data from Q3 2024 to Q2 2026; only the 2.2% endpoint falls in 2026. Use 2.2% as the latest figure, with that label. |
+| "Results differ by use": drafting bullet and the uneven-gains point | Noy and Zhang (2023); Brynjolfsson et al. ("most experienced… small declines in quality") | **Autor et al. (2026), "Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting," National Bureau of Economic Research Working Paper 35720 (September 2026, revised October 2026)**, https://www.nber.org/papers/w35720. Abstract: "we gave 133 practicing patent lawyers at eleven U.S. intellectual property law firms access to a custom AI patent drafting assistant." On quality while using AI, the abstract says "AI access raised the quality of work delivered on benchmark patent drafting tasks at 10 days (0.34 SD, p = 0.03) and 90 days (0.38 SD, p = 0.01), with larger gains among junior lawyers." On the later task done without AI: "Treated lawyers outperformed controls by 0.32 SD (p = 0.04), but this advantage was concentrated entirely among senior lawyers (0.45 SD, p = 0.02). Junior lawyers showed no average gain." On time, PDF p. 4 (printed p. 2): "Treated lawyers spent about 10 fewer minutes on the 10-day drafting task than controls (p = 0.05), whose mean was 110 minutes." | US randomized trial, not yet peer-reviewed. **Data from May 2025 to February 2026**: "the study period of May 2025 through February 2026" (PDF p. 9, printed p. 7). **Google-linked:** "Funding for the direct costs of this experiment was provided by Google"; "The study was conducted by Google"; five of the seven authors disclose Google employment, and one discloses a paid contractor relationship with Google (NBER page disclosures). **Rewrite the bullet, don't swap a number.** While lawyers had AI, juniors gained *more* in quality. On the later judgment task without AI, only seniors kept an edge. This runs in a different direction from Brynjolfsson et al.'s finding (gains mainly for less experienced workers). |
+| "Time the work rather than ask people," and the **new teaser hook** | METR (Becker et al., 2025; data from February to June 2025); UK "26 minutes a day" and the DSIT self-report line | **Yu et al. (2026), "Cognitive offloading and the speedup illusion in human-AI interaction"** (Stanford University; arXiv 2605.23177, May 22, 2026), https://arxiv.org/abs/2605.23177. Abstract: "We conducted a preregistered large-scale behavioral study (N = 1237)… While actual completion times between independent completion and AI-assisted completion did not differ, participants predicted AI to be significantly faster." Also in the abstract: "participants reported lower subjective effort with AI despite equivalent completion times." | Preprint; the arXiv comment lists the Proceedings of the 48th Annual Meeting of the Cognitive Science Society. Simple lab tasks ("simple cognitive tasks," abstract), not real jobs. Participants were recruited through Prolific, "comprising a representative sample of the US adult population" (Methods). The AI was GPT-4o. **The paper doesn't state when its data were collected**, so say "published May 2026; collection dates not stated." |
+| "What the evidence does not show": trust and checking | Lee et al. (2025); workslop (BetterUp Labs and Stanford Social Media Lab) | **Ma et al. (2026), "Impact of Expertise and Trust on AI-assisted Work"** (Carnegie Mellon University and Microsoft; arXiv 2610.14660, October 10, 2026), https://arxiv.org/abs/2610.14660. Abstract: "participants who delegated more completed more of the task, but were also more likely to produce invalid solutions. Experts more often resisted this tradeoff, sacrificing completion to decompose the task and scrutinize agent outputs." | Preprint. Think-aloud study of "20 professionals" recruited "at a large technology company." The tool was an agent (GitHub Copilot agent mode). Four of the seven authors are at Microsoft. **Collection dates not stated.** **Author-name mismatch:** the arXiv listing reads "Pranav Khape," "Rock Pang" and "Siddarth Suri"; the PDF reads Pranav Khadpe, Rock Yuren Pang and Siddharth Suri. The APA entry below follows the PDF. |
+| Agents gap, and the Takeaway | "We found no workplace study of agents that act on their own in an opt-in pilot" | **Wang et al. (2026), "Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba's Customer Service Operations"** (arXiv 2605.14830; v1 May 14, 2026, v2 June 1, 2026), https://arxiv.org/abs/2605.14830. Abstract: "Workers in the treatment condition supervised an agentic AI system that resolved AI-eligible chats… The findings show that AI deployment reduces average chat duration and has limited effects on retrial rates, but substantially lowers ratings for AI-eligible chats." | Not US: Taobao, China. Preprint. **Data from August 2024**: "a randomized field experiment conducted on Alibaba's ecommerce platform, Taobao.com, in August 2024, involving 647 customer service workers and 680,676 service chats" (Introduction). **The data predate the window, so the label must say so.** One author is at Alibaba Group, the platform studied. **New gap wording:** "We found one randomized field trial of agents acting on their own at work, outside the US and in customer service only (Wang et al., 2026, data from 2024). We found none of an opt-in pilot, and none that ran several tools." |
+
+### Cuts (per Direction update 6)
+- **UK trial numbers.** GDS (2025b): 20,000 employees, "26 minutes a day," "83%" and "around 80%." Also the Department for Science, Innovation and Technology (DSIT) press release, and the UK adoption line in the stop-rule section. Brief claims 8 and 10.
+- **Department for Business and Trade (DBT) pilot,** including the Excel finding and the ~70% volunteer line. Brief claims 8, 11 and 12, and the DBT parts of claim 15. The volunteers point now rests on Pennsylvania alone: "Pilot participants were not a representative sample of Commonwealth employees" (p. 12).
+- **Escalations** (Brynjolfsson et al.), and with them the "most experienced workers" quote.
+- **Humlum and Vestergaard** (Denmark): claims 13, 14, 17 and 18.
+- **Bick et al.'s 6-point gender gap.** All Bick et al. figures are out of the article (claim 13a), and Lin and Parker of Pew are out too (claim 13b).
+- **Workslop** (BetterUp Labs and Stanford Social Media Lab): the 40% and "1hr56m" figures, and the bullet.
+- **UK AI Playbook** (GDS, 2025a), claim 19. "Start each agent read-only, with a named reviewer and an off-limits list" stays, labeled as our judgement.
+- **Also out under the same rule** (AI-specific, with data before May 20, 2026; not in the current final, but don't reuse them):
+  - Microsoft and LinkedIn (2024) and Gallup (June 2025) in claim 13.
+  - The Gallup lines in claims 15 and 16 (work-nearly-doubled article, 2025).
+  - Claim 13c (Brookings conference draft, worker survey Jan to Feb 2026).
+  - Noy and Zhang (2023), METR (Becker et al., 2025) and Lee et al. (2025).
+  - Addendum 4's Bick 1.4%.
+  - Addendum 5's MetaGPT, ChatDev and Cemri et al., which are W48 notes. They would need the same recency check before W48 uses them.
+
+### Keep, with "data from" labels
+- **Dillon et al. (in press, *American Economic Review: Insights*):** "Between September 2023 and October 2024, Microsoft partnered with 66 large firms to run a cross-industry field experiment" (National Bureau of Economic Research Working Paper 33795, p. 1). Label: **data from 2023 to 2024**.
+- **Commonwealth of Pennsylvania (2025):** five cohorts ran "from March 2024 – March 2025" (p. 10). Label: **data from 2024 to 2025**. Its volunteer, self-report and teams quotes stay. It's still the only US opt-in pilot evaluation we have.
+- **Olson et al. (2025):** the study ran in 2024 (checked in Addendum 4: February to October 2024). Label: **data from 2024**. I found no verifiable replacement from inside the window, so I'm keeping it with the label, per Jon.
+
+### Knock-on fixes (suggested wording for Wade; his call)
+- **Teaser (new hook; 270/280 with ARTICLE_URL counted as 23):** "In a preregistered study of 1,237 US adults, people predicted AI would make simple tasks faster. Completion times did not differ (Yu et al., 2026, preprint). So time the work by the clock. A case for a capped, four-week opt-in pilot of AI agents: ARTICLE_URL"
+  - The "US adults" wording rests on the Methods line: "comprising a representative sample of the US adult population."
+- **End of "Three terms":** replace the Bick and Pew sentence with: "The Gallup surveys cited below measure manager support and whether a clear AI plan has been communicated. Neither is the same as sanction, and neither measures hidden use (Gallup, n.d.)."
+- **Takeaway:** replace "none of it from tests of agents acting on their own" with: "and only one randomized field trial of agents acting on their own, in customer service outside the US, with data from 2024 (Wang et al., 2026)."
+- **Stop-rule Sources line:** "Sources: the measures draw on Dillon et al. (in press), Autor et al. (2026), Yu et al. (2026), Ma et al. (2026), Wang et al. (2026), the Federal Reserve Bank of St. Louis (2026) and the Commonwealth of Pennsylvania (2025); see References. Every bar and the stop rule are ours; no source sets a threshold."
+  - How the remaining sources map to the measures:
+    - Time by the clock: Dillon, Autor and Yu.
+    - Errors and rework: Autor (blinded expert scoring) and Ma ("invalid solutions").
+    - Checking: Ma, and Pennsylvania p. 34.
+    - Use falling off: Pennsylvania p. 43. The UK adoption line is cut.
+    - Security: Pennsylvania p. 48.
+    - Customer ratings: Wang, as an outcome to watch in customer-facing uses.
+- **Stop-rule "Pilots do track use" paragraph:** delete the UK sentence and keep the two Pennsylvania quotes, labeled data from 2024 to 2025.
+- **Design section:** delete the DBT volunteer quote, the gender-gap sentence and the Playbook quotes. Keep the Pennsylvania "not a representative sample" quote and the read-only, reviewer and off-limits advice (ours).
+- **References:**
+  - **Remove:**
+    - Becker et al. (2025)
+    - BetterUp Labs and Stanford Social Media Lab (2025)
+    - Bick et al. (2025)
+    - Brynjolfsson et al. (2025)
+    - Department for Business and Trade (2025)
+    - Department for Science, Innovation and Technology (2025)
+    - Government Digital Service (2025a) and (2025b). Keep GDS (2021), and drop its "2021" disambiguation letters if any remain.
+    - Humlum and Vestergaard (2026)
+    - Lee et al. (2025)
+    - Lin and Parker (2025)
+    - Noy and Zhang (2023)
+  - **Keep:**
+    - Center for AI Standards and Innovation (2026)
+    - Commonwealth of Pennsylvania (2025)
+    - Dillon et al. (in press)
+    - Government Digital Service (2021)
+    - Olson et al. (2025)
+    - Puthal et al. (2025)
+    - U.S. Government Accountability Office (2025)
+  - **Add:** the seven entries below.
+
+### Counterpoints (still at least two after the cuts)
+- **Self-reports mislead.** People predicted AI would be faster when it wasn't (Yu et al.), and the FRED time-saved series is self-reported.
+- **Doing more can mean getting it wrong.** Heavier delegation produced more invalid work (Ma et al.).
+- **Speed can cost quality.** Agents shortened chats but "substantially lowers ratings" (Wang et al.).
+- **Help is uneven and can fade without AI.** Junior lawyers kept no edge on the later task done without AI (Autor et al.).
+- **Saved time may not show up in output.** Dillon et al. "do not detect shifts in the quantity or composition of workers' tasks" (abstract; data from 2023 to 2024).
+
+### Open questions
+- The recency rule leaves almost no **US** field evidence with data inside the window. Autor et al. ends in February 2026, and the Gallup task mix was fielded May 6 to 20, 2026, ending on the cutoff. Should the article say plainly that AI field evidence lags by a year or more?
+- Yu et al. and Ma et al. don't say when they collected their data. Is "published inside the window" enough under Jon's rule, or should each carry "collection dates not stated"? I recommend the label.
+- Wang et al. is the only agent field trial, and its data is from August 2024. Jon named it, so it stays, labeled. Confirm he's comfortable with a 2024 data label on the article's only agent trial.
+
+### APA 7 references (new; all checked November 21, 2026)
+Autor, D., Rodchenko, T., Martin, J., Iscenko, Z., Strand, S., Pearl, D., & Ferere, M. (2026). *Does AI assistance enhance or erode expertise? Evidence from a three-month field experiment in patent drafting* (Working Paper No. 35720). National Bureau of Economic Research. https://www.nber.org/papers/w35720
+
+Federal Reserve Bank of St. Louis. (2026, August 27). Does generative AI save time at work? *FRED Blog*. https://fred.stlouisfed.org/blog/2026/08/does-generative-ai-save-time-at-work/
+
+Gallup. (n.d.). *Indicator: Artificial intelligence*. Retrieved November 21, 2026, from https://www.gallup.com/699797/indicator-artificial-intelligence.aspx
+
+Kemp, A. (2026, July 20). *Organizational AI adoption jumps six points*. Gallup. https://www.gallup.com/workplace/712736/organizational-adoption-jumps-six-points.aspx
+
+Ma, Q., Khadpe, P., Pang, R. Y., Koedinger, K., Wu, T., Suri, S., & Iqbal, S. (2026). *Impact of expertise and trust on AI-assisted work* (arXiv:2610.14660). arXiv. https://doi.org/10.48550/arXiv.2610.14660
+
+Wang, Y., Zhu, C., Feng, T., Lu, L. X., & Jia, B. (2026). *Agentic AI and human-in-the-loop interventions: Field experimental evidence from Alibaba's customer service operations* (arXiv:2605.14830; Version 2). arXiv. https://doi.org/10.48550/arXiv.2605.14830
+
+Yu, S., Cheng, M., Jabbar, A., Sucholutsky, I., Collins, K. M., Jurafsky, D., & Hawkins, R. D. (2026). *Cognitive offloading and the speedup illusion in human-AI interaction* (arXiv:2605.23177). arXiv. https://doi.org/10.48550/arXiv.2605.23177
+
+**Link check (Nov 21):**
+- Return 200: both Gallup pages; the NBER page and PDF for w35720; all three arXiv abstract pages and their DOIs; and the Dillon, Pennsylvania and Olson links.
+- The FRED Blog dropped the connection on a command-line request but opened in a web fetch.
+- The NBER DOI (https://doi.org/10.3386/w35720) returned a 500 error today, so the reference uses the NBER page URL instead.
