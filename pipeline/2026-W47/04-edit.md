@@ -132,3 +132,12 @@ Counted the X way: the whole file including references, excluding table rows and
   - Wang is not US, a preprint, with data from August 2024.
   - Ma is a preprint of 20 professionals, mostly Microsoft authors.
   - No prices, no tool names in promos, no Grok Bot.
+
+## Follow-up (Chet's rulings, November 21, 2026)
+- **Rulings 1-3, no edits.** The Gallup 1.7x label reads "(the page does not date this figure)". That states only what the page shows and adds no date. Yu et al., Ma et al. and Wang et al. stay as labeled.
+- **Ruling 4 (clarify).** I removed the "that group" bridge so each Gallup figure names its own population, quoting the source's wording. Both phrases were re-checked verbatim against the live page on November 21, 2026: "employees (36%) in AI-integrating organizations strongly agree that their manager supports their team's use of AI" and "employees in AI-adopting organizations who strongly agree that their manager actively supports their team's use of AI are: 1.7x".
+  - Opening, before: who strongly agree that their manager actively supports their team's use of AI are "1.7x ..."
+  - Opening, after: who strongly agree that their manager "actively supports" their team's use of AI are "1.7x ..."
+  - Support goes with use, before: ... (Gallup, n.d.), and, as noted above, that group uses AI more often.
+  - Support goes with use, after: ... (Gallup, n.d.). The 36% is for organizations integrating AI and managers who "support" team AI use; the 1.7x above is for organizations adopting AI and managers who "actively support" it.
+- **Word count (X way):** 2,367 before, 2385 after.
