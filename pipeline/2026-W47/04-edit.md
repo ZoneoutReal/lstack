@@ -1,66 +1,134 @@
-# Edit: 2026-W47 (tool-agnostic exec pilot case)
+# 04 Edit: Edie, Addendum 7 pass (input 9feadfe, built from daff1c0)
 
-**Inputs**
-- Wade's 5164d34 (`03-draft.md`, `03-outline.md`).
-- Governing direction: Direction update 5 (`01-topic.md`, f76fa55), Addendum 5 (`02-brief.md`, c7c604c) and Addendum 6 (`02-brief.md`, 5d58c1a, the AI agent definition).
-- The governing files (roles/editor.md, the 04 SKILL.md, PRINCIPLES.md, AGREEMENTS.md, style/jon-academic-voice.md) are unchanged and were re-read.
+Governing files re-read at main: roles/editor.md, skills/04-edit-and-polish/SKILL.md, PRINCIPLES.md, AGREEMENTS.md, style/jon-academic-voice.md, 01-topic.md (Direction update 6) and 02-brief.md (Addendum 7). Every source was re-opened live on November 21, 2026, and every quote fragment was diffed by script against the source text. Cut and clarify only; nothing was rewritten.
 
-**Angle: holds.** No send-back (0 of 1 used).
-
-## Word count (X way: whole file, references included, no table rows or URLs)
-- Wade's draft: 2,434 (I get the same).
-- `04-final.md`: **2,490**, or 2,030 for the body without references.
-- The sourced definition and its two references added about 70 words. I offset them with the cuts listed below.
-
-## Does the draft deliver Direction update 5 and Addendum 5?
-| Ask | Result |
-|---|---|
-| Tool-agnostic case for a capped, opt-in pilot of AI agents across uses, not a Grok Bot pitch | ✅ The Grok Bot fit section, table, claims 1 to 6 and Notes 1 to 3 are gone. Claim 7, the rollout checklist and lstack moved to W48. I also cut the last Grok Bot sentence (Addendum 5 §3 allows "or cut"), so the article names no vendor tool except those the studies tested. |
-| Keep the productivity evidence, definitions, limits and the risk line | ✅ All kept. The risk line is labeled ours ("we suggest starting each one read-only"). |
-| §1 several uses: Dillon, UK, DBT, Pennsylvania (labeled), METR (labeled) | ✅ Present. Pennsylvania doesn't lead with "95 minutes"; it's tied straight to "Estimates reported by participants in exit survey". |
-| §1 thin list: multi-tool, agents acting on their own, teams (Pennsylvania p. 54), opt-in vs mandate | ✅ All four are stated plainly. Opt-in vs mandate is in "Encouragement goes with use". |
-| §2 stop rule in plain words: what is measured, by when, what happens | ✅ Five measures, week 2 and week 4, judged per use case. The table column is "Bar (ours)" and the source note says "Every bar and the stop rule are ours; no source sets a threshold." The end-date decision is "we suggest". |
-| "Stopping is the result" cut | ✅ Gone. GOV.UK quotes kept as support for deciding the test up front. |
-| "Article," not "piece"; no em dashes; no surname; no prices | ✅ |
-
-## Checks requested
-1. **"AI agents" definition: fixed with Addendum 6.** Wade's labeled working definition wouldn't have blocked the edit, since Jon's rule allows "say the wording is ours". Now a cited one exists, so I swapped in Rhett's sentence. That's a clarification from the brief, not a rewrite. Verified live:
-   - **CAISI, Federal Register 91(5), p. 699:** "AI agent systems consist of at least one generative AI model and scaffolding software that equips the model with tools to take a range of discretionary actions" and "They can be deployed with little to no human oversight". The notice's AGENCY line names CAISI at NIST, it is dated Jan 8, 2026, and it runs pp. 698–701 (FR Doc. 2026-00206). The reference is correct.
-   - **GAO-25-108519, p. 1** (published Sep 10, 2025): agentic AI makes "and adjust[s] plans" toward a goal, and "an AI agent could interact with other software systems to process a return or exchange". I kept GAO's caveat word for word and briefly: "There is no universally agreed upon definition of an AI agent" (p. 1). The reference carries GAO's release date.
-   - **Paraphrase:** faithful on every clause (built on a generative model, plans and acts toward a goal, uses tools in other systems, the returns example, little oversight). It adds nothing the sources don't say.
-2. **Dillon et al. meetings quote, p. 8: pass.** It is on printed p. 8 of the accepted manuscript (aeaweb.org/content/file?id=24562). The reference is the in-press *AER: Insights* entry, which matches. The email quote and scope (users of the tool, second half of the 6-month experiment) are word for word from that abstract. "integrated into applications they already used at work for email, meetings, and writing" also matches.
-3. **UK figures:**
-   - **20,000: pass.** GDS (2025b): a cross-government Microsoft 365 Copilot trial "from 30 September 2024 to 31 December 2024, involving 20,000 government employees". The text names it as UK.
-   - **83% and 80%: fixed scope.** The adoption rate is "the ratio between active users and number of users with a M365 Copilot licence", where active means "at least one interaction ... in the previous 30 days", based on data for 14,500 users. The draft set it beside a "used it last week" measure with no definition, so I added "meaning licence holders active in the previous 30 days" (+8 words). Both fragments are word for word.
-   - **1,000 licences: pass.** DBT (2025): "One thousand licences were available for a 3-month pilot from October to December 2024 and were allocated to UK-based staff". The ellipsis drops only "were available". The sample was "volunteers (~70%) and randomly selected participants (~30%)". DBT is labeled not US in the spreadsheet bullet, and the 20,000 and 1,000 sentence names the UK.
-4. **"Mostly Microsoft Research authors": pass, plus one fix.** Dillon et al.: three of four authors are at Microsoft Research, so it stays. Lee et al.'s label said "Microsoft Research authors", but six of seven are, so it is now "mostly Microsoft Research authors".
-5. **Stop rule, thresholds and read-only advice: pass.** Every bar, the check dates, the 3 to 5 baseline tasks, the spending limit, read-only and the end-date decision are labeled ours ("our judgement", "Bar (ours)", "we suggest"). No source is cited for any threshold. The "Pilots do track use" paragraph cites sources only for tracking use, not for any cut-off.
-6. **Brynjolfsson et al. at p. 933: pass.** Re-verified live on the QJE article page; the quote is word for word.
-7. **"maker of Grok" and "mostly US or Europe": pass.** Both are gone.
-
-## Fact-check log (live, Fri Nov 20, 2026, about 5:45 to 6:15 PM ET)
-- **Quote fragments:** a script compared every fragment and ellipsis against the live text. All 54 match.
-  - Two Pennsylvania items were checked by page layout because the PDF interleaves its columns: "14 state government agencies" (the p. 9 infographic: "14 / state government agencies represented in the pilot"), and the p. 43 "predicted ... half as many use cases".
-  - Olson et al. was checked in the browser, since PMC blocks scripted fetches.
-- **Pennsylvania pages:** 2, 3, 8, 9, 11, 12, 16, 33, 34, 43, 48 and 54 all match.
-- **METR (Becker et al.):** 16 developers, 246 tasks, randomized. The quotes are on pp. 1, 10 and 12. Labeled preprint, small sample.
-- **Other studies:** Bick et al. pp. 2, 10, 16, 17; Pew p. 23 (late 2024); Noy and Zhang p. 187; QJE p. 889 and p. 933; Humlum; Lee; BetterUp p. 1; DSIT; Playbook; Service Manual. All pass.
-- **References:** every in-text cite has an entry and every entry is cited, including the new CAISI and GAO entries. Alphabetical order is correct: Center before Commonwealth, and U.S. Government last. Page ranges use the APA en dash (889–942, 1–22, 187–192, 698–701), kept for the reason logged last round. There are 0 em dashes.
-
-## Cuts (to pay for the definition)
-- "Grok Bot is one more example of the tools a pilot could include, and none of these studies tested it." (20 words.) Addendum 5 §3 allows cutting it, and the article stays tool-agnostic.
-- "For this reason, a pilot should judge each use on its own, not the pilot as a whole." (17 words.) It followed the 1.4% average as if it were the reason, which is a non sequitur, and the stop rule already says to judge each use case.
-
-## Scores
-| Principle | Score | Note |
+## Scores (1-5)
+| Criterion | Score | Note |
 |---|---|---|
-| Useful | 5 | Five asks and a stop rule saying what is measured, by when and what happens |
-| Clear | 4 | Every term now cited. The labels and the table source note are dense |
-| Credible | 5 | Every fragment word for word, each figure scoped (the UK adoption rate now defined), all "ours" items labeled, the thin evidence said plainly |
-| Concise | 4 | 2,490 words as X counts them |
-| Iterative | 5 | Last round's fixes held (p. 933, Dillon label). The definition gap was closed from the brief within the hour |
-| **Average** | **4.6** | |
+| Useful | 4 | The pilot design, five measures and stop rule still carry the article. The evidence base is now thinner and heavily labeled. |
+| Clear | 4 | Labels are dense but consistent. Removed one unsourced superlative. |
+| Credible | 4 | Every quote matches its source. Fixed one unsupported date label (Gallup 1.7x). Four of the seven new-window sources are preprints or a working paper, and every one is labeled. |
+| Concise | 4 | 2,367 words, inside 2,000-2,500. |
+| Iterative | 5 | Direction update 6 and Addendum 7 are fully delivered: all swaps made, all cuts gone, all knock-on fixes in. |
+| **Average** | **4.2** | |
 
-## For Wade / Rhett
-- **Wade:** `03-outline.md` still lists the working definition and the Grok Bot example sentence.
-- **Optional, not added (length):** GAO p. 2 also supports the risk line: "Without sufficient oversight, mistakes or unintended consequences could go undetected."
+Send-backs used: 0 of 1. The angle holds, so no send-back.
+
+## Word count
+Counted the X way: the whole file including references, excluding table rows and URLs. Wade's draft is 2,377, which I confirmed. The final is **2,367**.
+
+## Edits (cut or clarify only)
+1. **Gallup 1.7x date label (clarify).** The draft read "(data as of May 2026)". On the live Gallup indicator page, "As of May 2026" belongs to the 36% sentence. The 1.7x line says only "Gallup's research shows employees in AI-adopting organizations who strongly agree that their manager actively supports their team's use of AI are: 1.7x as likely...", with no date. The label now reads "(the page does not date this figure)". This one goes to Chet (see below).
+2. **Cut: "Manager support is one of the clearest signals in recent US survey data."** This was an unsourced superlative, and no source ranks the signals. The section heading and the Gallup quote carry the point.
+3. **Ma et al. label (clarify).** "Microsoft authors" became "mostly Microsoft authors". The PDF lists 4 of the 7 authors at Microsoft (Khadpe, Pang, Suri and Iqbal) and 3 at Carnegie Mellon. The first author's work was done during a Microsoft internship.
+
+## Delivery check: Direction update 6 and Addendum 7
+- **Swaps delivered:**
+  - Gallup indicator: the 1.7x, 36% and 26% figures.
+  - Kemp's task mix.
+  - The FRED Blog's 2.2%, with its self-report caveat.
+  - Autor et al. (drafting bullet rewritten, not number-swapped).
+  - Yu et al. (the timing section).
+  - Ma et al. (the trust and checking bullet).
+  - Wang et al. (the agents bullet, the gap wording and the takeaway).
+- **Plan, not encouragement:** the 26% is framed as a plan, not as encouragement. Pass.
+- **Correlation:** the Gallup link has no causal wording, and the caveat "This is a survey link, not proof that manager support causes use (our wording)" is present. Pass.
+- **Knock-on fixes:**
+  - "Three terms" ends with the Gallup-measures sentence.
+  - The takeaway uses the Wang wording.
+  - The stop-rule Sources line names only remaining sources.
+  - The UK sentence is gone from "Pilots do track use".
+  - Design has lost the DBT, gender-gap and Playbook lines. The read-only, reviewer and off-limits advice stays, labeled ours.
+  - Pass.
+- **Cut list:** a grep for Bick, Pew, Lin and Parker, DBT, Business and Trade, Brynjolfsson, Humlum, METR, Becker, Lee et al., workslop, BetterUp, Playbook, Grok, Noy, Excel, gender, escalation, "26 minutes", 83%, DSIT and GDS 2025a/b returned no matches. Only two lines matched the broad patterns, and both are fine: Dillon's "80% of treated workers" and the GOV.UK discovery guide (GDS, 2021). Pass.
+- **References:** 14 entries (Autor, CAISI, Pennsylvania, Dillon, FRED, Gallup, GDS 2021, Kemp, Ma, Olson, Puthal, GAO, Wang and Yu). Each is cited in the body, and every body citation has an entry, so there are no orphans in either direction. Pass.
+- **Dashes:** em dashes (U+2014): 0. En dashes: 1, in the CAISI page range 698–701 (APA 7). Pass.
+- **House rules:**
+  - No prices.
+  - No surname.
+  - Comparisons are worded per house style.
+  - "Article", not "piece".
+  - Pass.
+
+## Fact-check log (live, verbatim; quote fragments diffed by script)
+- **Gallup (n.d.), indicator page** (fetched live):
+  - "1.7x as likely to use AI a few times a week or more": verbatim. Population: "employees in AI-adopting organizations who strongly agree that their manager actively supports their team's use of AI". Undated on the page. Fixed (edit 1).
+  - "As of May 2026, nearly four in 10 employees (36%) in AI-integrating organizations strongly agree that their manager supports their team's use of AI": verbatim.
+  - "As of August 2026, 26% of U.S. employees say their organization has communicated a clear plan for integrating AI into current practices": verbatim.
+  - Pass.
+- **Kemp (2026), Gallup:**
+  - The byline reads "by Andy Kemp", July 20, 2026.
+  - "Among AI users, the most common uses of AI are writing and editing (51%), search or research (49%), and general assistance or problem-solving (39%)": verbatim.
+  - Methods table: "Q2 2026 May 6-20, 2026 22,573", employed US adults, Gallup Panel. The article reports Q2 2026 results.
+  - The label "US survey fielded May 6 to 20, 2026" is correct. Pass.
+- **Federal Reserve Bank of St. Louis (2026), FRED Blog**, posted August 27, 2026 (read via WebFetch because the site drops curl):
+  - "the share of work hours saved thanks to AI assistance grew from 1.6% to 2.2%": verbatim.
+  - The span is stated as "from 28.2% in Q3 2024 to 39.2% by Q2 2026", with hours saved "over roughly the same stretch".
+  - "The information is based on how respondents self-report their “time saved,” so the measurements are inherently approximate": verbatim. Inside our double quotes, the inner marks correctly become single quotes, which is why the script flagged it.
+  - The source is the Real-Time Population Survey, "nationally representative". The label "self-reported; data from Q3 2024 to Q2 2026" is correct. Pass.
+- **Autor et al. (2026), NBER WP 35720** (PDF and NBER page):
+  - "133 practicing patent lawyers at eleven U.S. intellectual property law firms": abstract, verbatim.
+  - "Treated lawyers spent about 10 fewer minutes on the 10-day drafting task than controls (p = 0.05), whose mean was 110 minutes": PDF p. 4, with printed page number 2 confirmed in the footer. Verbatim except that the source sets p in math italic, so the script flagged it.
+  - "with larger gains among junior lawyers", "was concentrated entirely among senior lawyers" and "Junior lawyers showed no average gain": abstract, verbatim.
+  - Data: "the study period of May 2025 through February 2026" (PDF p. 9).
+  - Funding: "Funding for the direct costs of this experiment was provided by Google"; "The study was conducted by Google". Google employment and contractor disclosures appear on the NBER page. The label "funded by Google, with Google staff among the authors" is supported.
+  - Dated "September 2026, Revised October 2026".
+  - The author list matches the reference. Pass.
+- **Yu et al. (2026), arXiv 2605.23177**, submitted May 22, 2026:
+  - "a preregistered large-scale behavioral study (N = 1237)", "While actual completion times between independent completion and AI-assisted completion did not differ, participants predicted AI to be significantly faster" and "participants reported lower subjective effort with AI despite equivalent completion times": abstract, verbatim.
+  - Methods: Prolific, "comprising a representative sample of the US adult population"; "N=1237 in total: 401 in the prediction sample and 836 in the completion sample".
+  - I searched the full text for collection dates and found none, so "collection dates not stated" is correct.
+  - The author list matches. Pass.
+- **Ma et al. (2026), arXiv 2610.14660**, submitted October 10, 2026:
+  - Both abstract quotes are verbatim.
+  - "20 professionals" in a "think-aloud study", recruited "at a large technology company".
+  - No collection dates are stated.
+  - The reference uses the PDF spelling of names (Khadpe, Pang, Suri), which differs from the arXiv listing. That is correct for APA. Pass after edit 3.
+- **Wang et al. (2026), arXiv 2605.14830**, v1 May 14, 2026, and v2 June 1, 2026:
+  - The abstract quote is verbatim.
+  - "a randomized field experiment conducted on Alibaba's ecommerce platform, Taobao.com, in August 2024, involving 647 customer service workers and 680,676 service chats" (Introduction).
+  - One author lists "Alibaba Group Inc."
+  - Labels "not US (Taobao, China); preprint; data from August 2024; one author at Alibaba Group": all correct.
+  - The reference cites Version 2. Pass.
+- **Dillon et al. (in press), accepted manuscript:**
+  - Abstract (p. 1): "integrated into applications they already used at work for email, meetings, and writing", "In the second half of the 6-month experiment, the 80% of treated workers who used the tool..." and "do not detect shifts in the quantity or composition of workers' tasks".
+  - "We find no similar shifts in the time workers spent in Teams meetings" (p. 8).
+  - "Between September 2023 and October 2024" (p. 1) supports "data from 2023 to 2024". Pass.
+- **Commonwealth of Pennsylvania (2025):** all quotes are verbatim at the cited pages: p. 2, p. 3, p. 8, p. 11, p. 12, p. 16, p. 33, p. 34, p. 43, p. 48 and p. 54.
+  - The p. 9 "14 ... state government agencies" is an infographic. The number and its caption sit in separate text boxes, confirmed with pdftotext -layout.
+  - The p. 43 quote is verbatim across a two-column layout.
+  - p. 10: "from March 2024 – March 2025" supports "data from 2024 to 2025". Pass.
+- **Olson et al. (2025), PMC** (read in the browser; the site blocks curl):
+  - "burnout among those working in ambulatory clinics decreased significantly from 51.9% to 38.8%" and "There was no control group": both verbatim.
+  - "conducted between February 1 and October 31, 2024" supports "data from 2024". Pass.
+- **Puthal et al. (2025), CAISI (2026), GAO (2025) and GDS (2021):** text unchanged since daff1c0. The quotes match, and these sources are exempt from the recency rule (definitions and non-AI points). Pass.
+
+## Cutoff-rule rulings (AI data after May 20, 2026; otherwise say which years the data cover)
+- **Dillon et al. (2023 to 2024), Pennsylvania (2024 to 2025), Olson et al. (2024):** none meets the six-month data rule. Jon names all three as keeps in Direction update 6, and each carries its "data from" label wherever its figures appear. **Compliant by Jon's explicit exception.** No change.
+- **Kemp (2026):** published inside the window (July 20, 2026). Fieldwork ran May 6-20, 2026, ending on the cutoff day, so it is not strictly "after May 20". The rule's own fallback for older data inside an in-window source is to state the dates, and the label does: "US survey fielded May 6 to 20, 2026". **Compliant via the label.** No change.
+- **FRED Blog (2026) and Autor et al. (2026):** both were published inside the window, with older data labeled (Q3 2024 to Q2 2026; May 2025 to February 2026). **Compliant.**
+- **Yu et al. and Ma et al.:** both were published inside the window (May 22 and October 10, 2026), and neither states when its data were collected. The rule asks us to state the data years, which we cannot do. "Collection dates not stated" is the honest label, and Jon named both papers as swaps. **Compliant as labeled.** Whether that is enough is listed for Chet below.
+- **Wang et al.:** data from August 2024. v1 (May 14, 2026) predates the window, and v2 (June 1, 2026), the version cited, falls inside it. Jon named it, and the "data from August 2024" label appears in the bullet, the gap paragraph and the takeaway. **Compliant by Jon's naming.**
+- **Gallup indicator:** the 26% is dated August 2026, which is in the window. The 36% is "as of May 2026", which may sit on or before the cutoff and is labeled in the quote itself. The 1.7x is undated on the page. Now labeled "the page does not date this figure". **Flag for Chet.**
+
+## Items for Chet
+1. **Gallup 1.7x is undated on the source page.** Addendum 7 and the draft labeled it "data as of May 2026", but on the page that date belongs to the 36% sentence. I relabeled it honestly. Chet should decide whether an undated AI figure satisfies Direction update 6, or whether Rhett should find a dated source.
+2. **Yu and Ma, "collection dates not stated":** does publication inside the window satisfy the rule? I kept both, labeled, because Jon named them.
+3. **Wang, the only agent trial, uses 2024 data,** and its v1 predates the window. It is labeled in all three places. Chet should confirm with Jon (Rhett's open question, which I carried forward).
+4. **Group wording in "Support goes with use":** the 36% covers "AI-integrating organizations" and employees whose manager "supports" AI use, while the 1.7x covers "AI-adopting organizations" and a manager who "actively supports" it. "That group" bridges two slightly different Gallup populations. I let it stand because both are Gallup's own framings of the same manager-support measure. Chet may want it tightened.
+
+## Pax packaging notes
+- Everything from daff1c0 or earlier is stale, including the 05-package at 1f733b9 and 22a3c18. It cites cut sources.
+- **Teaser (Addendum 7 / outline), checked against this final:**
+  - "In a preregistered study of 1,237 US adults, people predicted AI would make simple tasks faster. Completion times did not differ (Yu et al., 2026, preprint). So time the work by the clock. A case for a capped, four-week opt-in pilot of AI agents: ARTICLE_URL" comes to 270/280.
+  - **Every fact holds:** preregistered, N = 1237, a representative US-adult sample via Prolific (Methods), simple tasks, no difference in completion times, preprint.
+  - **Precision note:** the 1,237 are split into a 401-person prediction sample and an 836-person completion sample. "People predicted ... Completion times did not differ" stays accurate as long as it doesn't say the same people did both.
+  - **Missing label:** "collection dates not stated", which the article carries under the cutoff rule. The full wording would run 285/280. A version that fits at 274/280: "In a study of 1,237 US adults, people predicted AI would make simple tasks faster. Completion times did not differ (Yu et al., 2026, preprint, dates not stated). So time the work by the clock. A case for a capped, four-week opt-in pilot of AI agents: ARTICLE_URL". It drops "preregistered".
+  - Pax and Chet decide.
+- **Labels to keep on any other X copy:**
+  - Gallup 1.7x is a survey link, not causal, and undated.
+  - FRED's 2.2% is self-reported, Q3 2024 to Q2 2026.
+  - Autor is a US working paper funded by Google, with data from May 2025 to February 2026.
+  - Wang is not US, a preprint, with data from August 2024.
+  - Ma is a preprint of 20 professionals, mostly Microsoft authors.
+  - No prices, no tool names in promos, no Grok Bot.
